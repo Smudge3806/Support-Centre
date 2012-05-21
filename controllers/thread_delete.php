@@ -1,51 +1,49 @@
 <?php
-	/* Delete thread
-	*  @params thread_id [int]
-	*  @params page [varchar]
-	*/
-	
-	if(isset($_GET['id']))
+	session_start();
+	require_once('../models/user.php');
+	$user = new User($_SESSION['uid']);
+	if(isset($_GET))
 	{
-		$thread = $_GET['id'];
 		include('dbconnection.php');
-		
-		$mysqli->query('DELETE FROM messages WHERE thread_id = '.$thread);
+		?>
+		<table>
+		<?php
+		echo "<tr><td><b>CONSOLE: </b>Deleting Messages from this Thread</td>";
+		$mysqli->query('DELETE * FROM messages WHERE thread_id = '.$_GET['id']);
 		if($mysqli->affected_rows != 0)
 		{
-			$mysqli->query('DELETE FROM threads WHERE thread_id = '.$thread);
-			if($mysqli->affected_rows != 0)
-			{
-				if(isset($_GET['page']))
-				{
-					$page = $_GET['page'];
-					switch($page)
-					{
-						case "notifications":
-							$page = "messages/";
-							break;
-						case "index":
-							$page = "index.php";
-							break;
-					}
-				}
-				else
-				{
-					session_start();
-					$page = 'messages/';
-				}
-				header('location: ../'.$page);
-				
-			}
-			else
-			{
-				var_dump($mysqli);
-			}
+			$answer = "[OK]";
 		}
 		else
 		{
-			var_dump($mysqli);
-		}	
-		
-		
+			$answer = "[FAILED]";
+		}
+		echo "<td>".$answer."</td></tr>";
+		echo "<tr><td><b>CONSOLE: </b>Deleting Thread</td>";
+		$mysqli->query('DELETE * FROM threads WHERE thread_id = '.$_GET['id']);
+		if($mysqli->affected_rows != 0)
+		{
+			$answer = "[OK]";
+		}
+		else
+		{
+			$answer = "[FAILED]";
+		}
+		echo "<td>".$answer."</td></tr>";
+		echo "<tr colspan="2"><td><b>CONSOLE: </b>Thread Deleted</b></td></tr>";
+		$mysqli->kill();
+		unset($mysqli);
+		header('location: http://www.barnsley-ltu.co.uk/messages/');
+	}
+	else
+	{
+		if(strtolower($_SESSION['account']) == "user")
+		{
+			header('location: http://www.barnsley-ltu.co.uk/user/'.$_SESSION['uid']);
+		}
+		else
+		{
+			header('location: http://www.barnsley-ltu.co.uk/user/'.$_SESSION['uid'].'/admin');
+		}
 	}
 ?>
