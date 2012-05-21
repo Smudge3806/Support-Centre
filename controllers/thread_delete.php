@@ -9,8 +9,8 @@
 		<table>
 		<?php
 		echo "<tr><td><b>CONSOLE: </b>Deleting Messages from this Thread</td>";
-		$mysqli->query('DELETE * FROM messages WHERE thread_id = '.$_GET['id']);
-		if($mysqli->affected_rows != 0)
+		$mysqli->query('DELETE FROM messages WHERE thread_id = '.$_GET['id']);
+		if($mysqli->affected_rows > 0)
 		{
 			$answer = "[OK]";
 		}
@@ -20,8 +20,8 @@
 		}
 		echo "<td>".$answer."</td></tr>";
 		echo "<tr><td><b>CONSOLE: </b>Deleting Thread</td>";
-		$mysqli->query('DELETE * FROM threads WHERE thread_id = '.$_GET['id']);
-		if($mysqli->affected_rows != 0)
+		$mysqli->query('DELETE FROM threads WHERE thread_id = '.$_GET['id']);
+		if($mysqli->affected_rows > 0)
 		{
 			$answer = "[OK]";
 		}
@@ -30,8 +30,8 @@
 			$answer = "[FAILED]";
 		}
 		echo "<td>".$answer."</td></tr>";
-		echo "<tr colspan="2"><td><b>CONSOLE: </b>Thread Deleted</b></td></tr>";
-		$mysqli->kill();
+		echo "<tr colspan='2'><td><b>CONSOLE: </b>Thread Deleted</b></td></tr>";
+		$mysqli->close();
 		unset($mysqli);
 		header('location: http://www.barnsley-ltu.co.uk/messages/');
 	}
