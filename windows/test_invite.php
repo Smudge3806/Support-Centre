@@ -23,7 +23,7 @@
 								}
 								else
 								{
-									$found_users = $mysqli->query('SELECT u.* FROM users AS u WHERE department_id = '.$sess->department->id.' AND u.uid <> (SELECT tr.user_id FROM training_registers AS tr WHERE tr.event_id = '.$event_id.') GROUP BY u.uid');
+									$found_users = $mysqli->query('SELECT u.* FROM users AS u WHERE department_id = '.$sess->department->id.' AND u.uid <> (SELECT tr.user_id FROM training_registers AS tr WHERE tr.event_id = '.$event_id.' LIMIT 0,1) AND u.uid <> '.$_SESSION['uid'].' GROUP BY u.uid');
 								}
 								
 								if($found_users->num_rows != 0)
