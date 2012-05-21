@@ -1,0 +1,105 @@
+﻿#MessageColInbox
+{
+	float:left;
+}
+
+#MessageColSent
+{
+	float:left;
+}
+
+.MessageContainer
+{
+	float:left;
+	margin:15px;
+	background-color: #f7a901;
+	width: 300px;
+	box-shadow:#666 0px 0px 25px;
+}
+
+.MessageContainerHeader
+{
+	text-align:center;
+	width:inherit;
+}
+
+#Inbox
+{
+
+}
+
+#Sent
+{
+
+}
+
+.MessageContainerItems
+{
+	width:inherit;
+}
+
+.MessageItem
+{
+	padding:10px;
+	background-color:white;
+}
+
+.MessageItem:before
+{
+	margin-left:25px;
+	background-image: url('../img/messageinbox.png');
+}
+
+#Sent .MessageItem:before
+{
+	padding-left: 25px;
+	background-image: url('../img/messagesent.png');
+}
+
+.MessageItem:hover
+{
+	
+	background-color: #91d685;
+}
+
+.MessageItem *
+{
+	padding:0px;
+	margin:0px;
+	text-decoration:none
+}
+
+.MessageItemName
+{
+	font-weight:bold;
+	font-size:1em;
+	display:inline-block;
+	
+}
+.MessageItemName a
+{
+	color: #551A8B;
+}
+.MessageItemName:hover
+{
+	text-decoration:underline;	
+}
+
+.MessageItemDate
+{
+	float:right;
+	clear:right;
+	display:inline-block;
+}
+
+.MessageItemSubject
+{
+	font-size:0.75em;
+	display:block;
+	clear:both;
+	overflow:hidden;
+}
+.MessageItemSubject:hover
+{
+	text-decoration:underline;
+}

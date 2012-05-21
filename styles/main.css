@@ -1,0 +1,54 @@
+﻿body{
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	width:670px;
+	margin:auto;
+	background: white url('../img/background_image.jpg') no-repeat scroll 50% 10px;
+}
+
+.header{
+	float:right;
+	margin-right:0px
+}
+
+.title
+{
+	font-weight:normal;
+	margin-bottom:0px;
+}
+
+.subtitle
+{
+	font-style:italic;
+	color:gray;
+	margin:0px 0px 0px 0px;
+}
+.topic-headers
+{
+	float:left;
+	clear:both;
+	padding-left:10px;
+}
+
+.notice{
+	width:100%;
+	background-color:#FF9900;
+	padding-left:10px;
+	float:left;
+	clear:both;
+}
+
+	#clear{
+	background-image:url('../img/close.png');
+	border:none;
+	height:42px;
+	width:42px;
+	float:right;
+	margin-top:5px
+}
+#clear:hover{
+	background-image:url('../img/clear.png');
+	border:none;
+	height:42px;
+	width:42px;
+
+}

@@ -1,0 +1,1 @@
+<?php header('location: http://www.barnsley-ltu.co.uk/contact.php'); ?>

@@ -1,0 +1,26 @@
+[08-Mar-2012 12:07:00] PHP Warning:  include(dbconnection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:07:00] PHP Warning:  include(dbconnection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:07:00] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbconnection.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:07:00] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 41
+[08-Mar-2012 12:07:14] PHP Warning:  include(dbconnection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:07:14] PHP Warning:  include(dbconnection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:07:14] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbconnection.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:07:14] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 41
+[08-Mar-2012 12:07:38] PHP Warning:  include(dbconnection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:07:38] PHP Warning:  include(dbconnection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:07:38] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbconnection.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:07:38] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 41
+[08-Mar-2012 12:10:04] PHP Warning:  include(dbconnection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:10:04] PHP Warning:  include(dbconnection.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:10:04] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'dbconnection.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 40
+[08-Mar-2012 12:10:04] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/views/fancybox/support_moodle_course.php on line 41
+[08-Mar-2012 12:10:26] PHP Fatal error:  Using $this when not in object context in /home/barnsle2/public_html/views/fancybox/dbconnection.php on line 8
+[08-Mar-2012 12:11:08] PHP Fatal error:  Using $this when not in object context in /home/barnsle2/public_html/views/fancybox/dbconnection.php on line 8
+[08-Mar-2012 12:11:49] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[08-Mar-2012 12:14:03] PHP Fatal error:  Using $this when not in object context in /home/barnsle2/public_html/views/fancybox/dbconnection.php on line 8
+[08-Mar-2012 12:14:27] PHP Fatal error:  Using $this when not in object context in /home/barnsle2/public_html/views/fancybox/dbconnection.php on line 8
+[08-Mar-2012 12:15:31] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[08-Mar-2012 12:16:28] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /home/barnsle2/public_html/models/user.php on line 52
+[08-Mar-2012 12:16:54] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[08-Mar-2012 12:17:19] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /home/barnsle2/public_html/models/user.php on line 15
+[08-Mar-2012 12:17:32] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/department.php on line 12

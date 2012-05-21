@@ -1,0 +1,27 @@
+﻿.note
+{
+	clear:both;
+	float:left;
+}
+.note #title
+{
+	font-weight:bold;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.note #date
+{
+	margin-top:0px;
+	padding-top:0px;
+	color:silver;
+	font-size:small;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.note #message
+{
+	white-space:pre-wrap;
+	clear:both;
+	float:left;
+	margin-top:5px;
+}

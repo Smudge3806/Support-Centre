@@ -1,0 +1,4 @@
+<?php header('location: errors/404.php');?>
+<!-- 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+--> 

@@ -1,0 +1,12 @@
+[15-Feb-2012 11:54:05] PHP Fatal error:  Call to undefined method mysqli_result::fetch_objects() in /home/barnsle2/public_html/reporting/index.php on line 36
+[15-Feb-2012 11:54:33] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/barnsle2/public_html/reporting/models/student.php on line 27
+[15-Feb-2012 11:55:22] PHP Warning:  require_once(concern.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/barnsle2/public_html/reporting/models/student.php on line 36
+[15-Feb-2012 11:55:22] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'concern.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/barnsle2/public_html/reporting/models/student.php on line 36
+[15-Feb-2012 11:56:34] PHP Fatal error:  Class 'Concern' not found in /home/barnsle2/public_html/reporting/models/student.php on line 37
+[15-Feb-2012 12:04:27] PHP Fatal error:  Cannot use object of type stdClass as array in /home/barnsle2/public_html/reporting/models/concern.php on line 25
+[15-Feb-2012 12:04:46] PHP Fatal error:  Cannot use object of type stdClass as array in /home/barnsle2/public_html/reporting/models/concern.php on line 25
+[15-Feb-2012 12:04:47] PHP Fatal error:  Cannot use object of type stdClass as array in /home/barnsle2/public_html/reporting/models/concern.php on line 25
+[15-Feb-2012 12:04:52] PHP Parse error:  syntax error, unexpected T_STRING in /home/barnsle2/public_html/reporting/models/concern.php on line 25
+[15-Feb-2012 12:22:20] PHP Warning:  Invalid argument supplied for foreach() in /home/barnsle2/public_html/reporting/index.php on line 63
+[15-Feb-2012 12:38:26] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/barnsle2/public_html/reporting/index.php on line 61
+[15-Feb-2012 12:51:57] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/barnsle2/public_html/reporting/student.php on line 29

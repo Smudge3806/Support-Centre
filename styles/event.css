@@ -1,0 +1,17 @@
+﻿ .content
+	{
+	background-color:white;
+	box-shadow:#666 0px 0px 25px;
+	float:left;
+	clear:both;
+	padding:25px;
+	border-radius:5px;
+	margin-left:14px;
+	margin-bottom:25px;
+}
+
+#first
+{
+	margin-top:-45px;
+	padding-top:50px;
+}

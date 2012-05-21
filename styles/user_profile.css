@@ -1,0 +1,155 @@
+﻿fieldset{
+border:thin black solid;
+background-color:white;
+float:left;
+clear:left;
+}
+#alt
+{
+	background-color:#99CCFF;
+}
+#profile-ui
+{
+	list-style-type:none;
+	border: thin #99CCFF solid;
+	padding:0px;
+	float:left;
+	clear:left;
+	width:360px;
+}
+#profile-ui h2,p,a
+{
+	margin:0px;
+}
+#user_profile_ui
+{
+	float:left;
+	clear:left;
+	margin-top:25px;
+	width:48%;
+}
+
+#functions_ui
+{
+	float:left;
+	clear:right;
+	margin-top:15px;
+	margin-left:2%;
+	width:48%;
+}
+
+.UserAdmin #UserTile
+{
+	float:left;
+	padding:10px;
+	box-shadow:#666 0px 0px 25px;
+	text-decoration:none;
+	
+}
+.content
+{
+	margin: -25px 14px 0px 14px;
+	background-color:white;
+	border-radius:5px;
+	box-shadow:#666 0px 0px 25px;
+	padding:35px 10px 25px 10px;
+	float:left;
+	clear:both;
+	width:756px;
+}
+
+.description
+{
+	width:805px;
+	background-image:url('http://www.barnsley-ltu.co.uk/img/admin_wrap_around.png');
+}
+
+.inner
+{
+	width:736px;
+}
+
+#navigation
+{
+	padding-left:242px;
+	clear:both;
+}
+
+.header
+{
+	margin-right:242px;
+}
+
+#left_navigation ul #user
+{
+	color:white;
+	text-align:center;
+	border-right:thick #459D35 solid;
+	border-left:thick #459D35 solid;
+	padding:0px 15px;
+	background-color:rgba(00,00,00,0.8);
+}
+
+/*#left_navigation
+{
+	float:left;
+	clear:both;
+	height:100%;
+	min-height:300px;
+	width:250px;
+	margin-top:25px;
+}
+#left_navigation li
+{
+	list-style-type:none;
+	float:right;
+	clear:both;
+	padding-right:10px;
+	min-width:200px;
+	background-color:rgba(255,255,255,0.4);		
+}
+#left_navigation ul
+{
+	line-height:200%;	
+}
+#left_navigation li *
+{
+	float:right;
+	clear:both;
+}
+
+#left_navigation li a
+{
+	color:black;
+	text-decoration:none;
+	cursor:pointer;	
+}
+#left_navigation li:hover a
+{
+	color:white;
+}
+
+#left_navigation li:hover
+{
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	padding-right: 25px;
+	border-right:thick #459D35 solid;
+}
+
+#left_navigation #active
+{
+	background-color:rgba(69,157,53,0.5);
+	color:white;
+	padding-left:25px;	
+}
+*/	
+#content
+{
+	float:left;
+	margin-top:25px;
+	padding-left:10px;
+	padding-top:15px;	
+}
+
+

@@ -1,0 +1,29 @@
+#body2 {
+	width: 97%;
+	border: 4px solid #5384ff;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	-moz-border-radius-topright:40px;
+	-moz-border-radius-bottomleft:40px;
+	-webkit-border-top-right-radius:40px;
+	-webkit-border-bottom-left-radius:40px;
+	border-radius-top-right-radius: 10px;
+	border-radius-bottom-left-radius: 10px;
+	background-image: url(http://moodle.barnsley.ac.uk/file.php/1/No_Password_files/Learning%20Curve%20Webpage/Images/bg270.png);
+	padding-left: 1%;
+	behavior: url(pie/PIE.php);
+}
+
+#left
+{
+	float:left;
+	clear:left;
+	padding:25px;			
+}
+#right
+{
+	float:right;
+	padding:25px;
+	margin-right:15%;
+	display:block;
+}

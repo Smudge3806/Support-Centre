@@ -1,0 +1,9 @@
+<h2>Hello and Thank You for Registering with Support Centre!</h2>
+<p>Some of the many features you can now benefit from are:</p>
+<ul>
+	<li>Interactive Support Requests</li>
+	<li>Organise Training Events and invite your collegues</li>
+	<li>Get connected straight to your Support Officer</li>
+</ul>
+<p>To finish the registration process, copy and paste the link below into the address bar of your browser</p>
+<p>Register Now: http://www.barnsley-ltu.co.uk/register_step2.php?code=[[code]]</p>

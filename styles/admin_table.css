@@ -1,0 +1,31 @@
+﻿/* admin table css */
+
+table
+{
+	border-collapse:collapse;
+	text-align:center;
+	width:720px;
+	margin:0px 10px 0px 10px;
+}
+
+table thead
+{
+	background-color:#91d685;
+	color:white;
+}
+
+table caption
+{
+text-align:right;
+padding:10px 0px;
+}
+
+tbody tr:nth-child(even)
+{
+	background-color:rgba(153,204,255,0.4);
+}
+
+table td
+{
+	padding:0px 10px 0px 10px;
+}

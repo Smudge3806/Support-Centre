@@ -1,0 +1,22 @@
+[16-Jan-2012 15:49:00] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[23-Jan-2012 11:12:06] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[23-Jan-2012 11:12:41] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[23-Jan-2012 11:12:59] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[23-Jan-2012 11:13:58] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[23-Jan-2012 11:14:03] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[23-Jan-2012 11:14:24] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[23-Jan-2012 11:16:29] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[23-Jan-2012 11:17:32] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 17
+[23-Jan-2012 13:59:52] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/controllers/change_account.php on line 4
+[23-Jan-2012 15:36:42] PHP Parse error:  syntax error, unexpected '}' in /home/barnsle2/public_html/controllers/contact_user.php on line 21
+[27-Feb-2012 15:56:27] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ')' in /home/barnsle2/public_html/controllers/delete_user.php on line 21
+[01-Mar-2012 10:15:55] PHP Parse error:  syntax error, unexpected '}' in /home/barnsle2/public_html/controllers/test_parsename.php on line 34
+[02-Mar-2012 13:32:06] PHP Parse error:  syntax error, unexpected $end in /home/barnsle2/public_html/controllers/new_training_event.php on line 56
+[05-Mar-2012 11:13:04] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[05-Mar-2012 11:15:09] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[05-Mar-2012 11:17:10] PHP Fatal error:  Call to a member function query() on a non-object in /home/barnsle2/public_html/models/user.php on line 15
+[05-Mar-2012 11:23:19] PHP Parse error:  syntax error, unexpected '}' in /home/barnsle2/public_html/controllers/message.php on line 22
+[08-Mar-2012 14:49:30] PHP Parse error:  syntax error, unexpected '{' in /home/barnsle2/public_html/controllers/submit_report.php on line 40
+[09-Mar-2012 15:11:27] PHP Parse error:  syntax error, unexpected '{' in /home/barnsle2/public_html/controllers/event_add_note.php on line 46
+[09-Mar-2012 15:11:57] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/barnsle2/public_html/controllers/event_add_note.php on line 51
+[09-Mar-2012 15:12:43] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/barnsle2/public_html/controllers/event_add_note.php on line 51

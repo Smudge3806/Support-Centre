@@ -1,0 +1,63 @@
+﻿.description{
+	width:683px;
+	color:white;
+	padding-bottom:13px;
+	background: url(../img/wrap_around.png) no-repeat 0 100%;
+	float:left;
+	clear:both;
+}
+.inner
+{
+	width:615px;
+	background-color:#91d685;
+	padding: 20px 34px;
+	opacity: .90;
+}
+
+.inner:hover
+{
+	background-color:#459D35;
+}
+.inner #title
+{
+	font-weight:lighter;
+	padding: 0px;
+	margin:0px;
+
+}
+
+.inner #inner_description
+{
+	font-size:15px;
+	padding: 0px;
+	margin:0px;
+}
+
+.marketing_profile
+{
+	margin-left:20px
+}
+
+.side{
+	width:683px;
+	color:white;
+	padding-bottom:13px;
+	background: url(../img/tag_around.png) no-repeat 0 100%;
+	float:left;
+	clear:both;
+}
+
+
+.inner_side
+{
+	width:215px;
+	background-color:#459D35;
+	padding: 5px 34px;
+	opacity: .90;
+}
+
+#side_text{
+	margin:15px;
+	float:left;
+	clear:both;
+}

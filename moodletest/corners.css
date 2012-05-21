@@ -1,0 +1,16 @@
+body
+{
+	behavior: url(pie/PIE.css);
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;	
+}
+
+#corners
+{
+	min-width:325px;
+	min-height:250px;
+	max-width:325px;
+			
+	background-color: #0099FF;
+	border-top-left-radius:	50px 50px;
+	border-bottom-right-radius: 50px 50px;			
+}

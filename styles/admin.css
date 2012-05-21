@@ -1,0 +1,167 @@
+﻿	#left_navigation
+	{
+		float:left;
+		clear:both;
+		height:100%;
+		min-height:300px;
+		width:250px;
+		margin-top:25px;
+	}
+	#left_navigation li
+	{
+		list-style-type:none;
+		float:right;
+		clear:both;
+		padding-right:10px;
+		min-width:200px;
+		background-color:rgba(255,255,255,0.4);		
+	}
+	#left_navigation ul
+	{
+		line-height:200%;	
+	}
+	#left_navigation li *
+	{
+		float:right;
+		clear:both;
+	}
+	
+	#left_navigation li a
+	{
+		color:black;
+		text-decoration:none;
+		cursor:pointer;	
+	}
+	#left_navigation li:hover a
+	{
+		color:white;
+	}
+	
+	#left_navigation li:hover
+	{
+		background-color:rgba(0,0,0,0.8);
+		color:white;
+		padding-right: 25px;
+		border-right:thick #459D35 solid;
+	}
+	
+	#left_navigation #active
+	{
+		background-color:rgba(69,157,53,0.5);
+		color:white;
+		padding-left:25px;	
+	}
+	
+	#content
+	{
+		float:left;
+		margin-top:25px;
+		padding-left:10px;
+		padding-top:15px;	
+	}
+	
+	#support, #your, #all, #training, #messages, #moodle, #admin, #equipment, #administration
+	{
+		display:none;
+	}
+	
+	#navigation
+	{
+		padding-left:242px;
+		clear:both;
+	}
+	
+	.header
+	{
+		margin-right:242px;
+	}
+	
+	body
+	{
+		width:1285px;
+	}
+	
+	.content
+	{
+		margin: -25px 14px 0px 14px;
+		background-color:white;
+		border-radius:5px;
+		box-shadow:#666 0px 0px 25px;
+		padding:35px 10px 25px 10px;
+		float:left;
+		clear:both;
+		width:756px;
+	}
+	
+	.description
+	{
+		width:805px;
+		background-image:url('http://www.barnsley-ltu.co.uk/img/admin_wrap_around.png');
+	}
+	
+	.inner
+	{
+		width:736px;
+	}
+
+	#adminList
+	{
+		width:100%;
+	}
+	#adminList a
+	{
+		padding:0px 10px;
+	}
+	#adminList a:hover
+	{
+		text-decoration:underline;
+	}
+	#adminList a#activeSO
+	{
+		border-radius:5px;
+		background-color:rgba(102,102,102,0.4);
+		opacity:0.6;
+	}
+	
+	#adminList a#activeSOR
+	{
+		border-radius:5px;
+		background-color:rgba(102,102,102,0.4);
+		opacity:0.6;
+
+	}
+
+	.MoodleDepartmentList
+	{
+		display:inline;
+	}
+	
+	.MoodleDepartmentListItem
+	{
+		padding: 0px 0px;	
+	}
+	
+	.MoodleDepartmentListItem:hover
+	{
+		text-decoration:underline;
+	}
+	
+	#MoodleControls
+	{
+		display:inline;
+		width: 400px;
+		clear: right;
+		position: absolute;	
+	}
+		
+	.MoodleControlNew
+	{
+		margin-left:5px;
+	}
+	
+	.MoodleDepartmentList #ActiveDepartment
+	{
+		border-radius:5px;
+		background-color:rgba(102,102,102,0.4);
+		opacity:0.6;
+	}

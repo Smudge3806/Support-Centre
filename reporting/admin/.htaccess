@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Administration Area"
+AuthUserFile "/home/barnsle2/.htpasswds/public_html/reporting/admin/passwd"
+require valid-user

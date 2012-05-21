@@ -1,0 +1,73 @@
+﻿.MoodleTile
+{
+	border:thin silver solid;
+	margin:15px;
+	padding:15px;
+	max-width:400px;
+	width:250px;
+	height:75px;
+	float:left;
+	overflow:hidden;
+}
+
+.MoodleTile:hover
+{
+	border:thin black solid;
+	box-shadow:#666 0px 0px 10px;
+	margin:5px;
+	width:270px;
+	height:95px;
+}
+
+.MoodleTileTitle
+{
+	text-decoration:none;
+	float:left;
+}
+
+.MoodleTileURL
+{
+	float:left;
+	font-size:small;
+	color:gray;
+	max-width:200px;
+	word-wrap: break-word;
+}
+
+.UserTile
+{
+	border:thin silver solid;
+	margin:10px;
+	padding:15px;
+	max-width:400px;
+	width:250px;
+	height:50px;
+	float:left;
+	overflow:hidden;
+}
+
+.UserTile:hover
+{
+	border:thin black solid;
+	box-shadow:#666 0px 0px 10px;
+	margin:10px 5px;
+	width:270px;
+	background-color: #91d685;
+}
+
+
+.UserTileTitle
+{
+	text-decoration:none;
+	clear:right;
+	display:block;
+}
+
+.UserTileEmail
+{
+	font-size:small;
+	color:gray;
+	max-width:200px;
+	word-wrap: break-word;
+	clear:left;
+}

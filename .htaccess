@@ -1,0 +1,96 @@
+ErrorDocument 404 /errors/404.php
+RewriteEngine on
+
+# Wiki Rewrites
+
+RewriteCond %{HTTP_HOST} ^wiki\.barnsley\-ltu\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.wiki\.barnsley\-ltu\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/wiki\.barnsley\-ltu\.co\.uk\/wiki\/" [R=301,L]
+
+# Login
+
+RewriteRule ^login/?$ login.php [L]
+RewriteRule ^login/e/([0-9]+)/?$ login.php?e=$1
+RewriteRule ^login/admin?$ ad-login.php [L]
+
+# Messages
+
+RewriteRule ^messages/([0-9]+)/?$ thread.php?id=$1 [L]
+RewriteRule ^messages/([0-9]+)/reply/([0-9]+)?$ message.php?recip=$2&thread_id=$1 [L]
+RewriteRule ^messages/compose/([0-9]+)/?$ message.php?recip=$1 [L]
+RewriteRule ^messages/([0-9]+)/delete/?$ controllers/thread_delete.php?id=$1 [L]
+RewriteRule ^messages/([0-9]+)/delete/([a-zA-Z]+)/?$ controllers/thread_delete.php?id=$1&page=$2 [L]
+RewriteRule ^messages/ notifications.php [L]
+
+
+# Users
+
+RewriteRule ^users/([0-9]+)/?$ profile.php?id=$1 [L]
+RewriteRule ^user/([0-9]+)/?$ profile.php?id=$1 [L]
+RewriteRule ^users/([a-zA-Z]+)?$ rewrites/user_by_name.php?search=$1 [L]
+RewriteRule ^user/([a-zA-Z]+)?$ rewrites/user_by_name.php?search=$1 [L]
+RewriteRule ^users/([0-9]+)/admin?$ user_profile.php?id=$1 [L] 
+RewriteRule ^user/([0-9]+)/admin?$ user_profile.php?id=$1 [L]
+
+RewriteRule ^users/([0-9]+)/account/?$ account.php?id=$1 [L]
+RewriteRule ^user/([0-9]+)/account/?$ account.php?id=$1 [L]
+
+RewriteRule ^user/?$ profile.php [L]
+RewriteRule ^user/profile/?$ profile.php [L]
+RewriteRule ^user/profile/admin/?$ user_profile.php [L]
+RewriteRule ^user/admin/?$ user_profile.php [L]
+RewriteRule ^user/account/?$ account.php [L]
+RewriteRule ^account/?$ account.php [L]
+
+# Events
+
+RewriteRule ^events/new/?$ new_event.php [L]
+RewriteRule ^event/new/?$ new_event.php [L]
+
+RewriteRule ^events/view/?$ training.php [L]
+RewriteRule ^event/view/?$ training.php [L]
+
+RewriteRule ^events/([0-9]+)/?$ event.php?id=$1 [L]
+RewriteRule ^event/([0-9]+)/?$ event.php?id=$1 [L] 
+RewriteRule ^events/([0-9]+)/admin/?$ event_admin.php?id=$1 [L] 
+RewriteRule ^event/([0-9]+)/admin/?$ event_admin.php?id=$1 [L]
+
+# Support
+
+RewriteRule ^support/([0-9]+)/?$ support.php?id=$1 [L]
+
+RewriteRule ^support/([0-9]+)/nudge/([0-9]+)/?$ controllers/nudge.php?id=$1&sid=$2 [L]
+
+RewriteRule ^support/([0-9]+)/reopen/?$ support.php?id=$1&stat=open [L]
+RewriteRule ^support/([0-9]+)/close/?$ support.php?id=$1&status=close [L]
+RewriteRule ^support/([0-9]+)/open/?$ support.php?id=$1 [L]
+RewriteRule ^support/([0-9]+)/advance/?$ advance_report.php?id=$1 [L]
+
+RewriteRule ^support/new/([a-zA-Z]+)/([0-9]+)/?$ submit_request.php?cat=$1&user=$2&add=on [L]
+
+RewriteRule ^support/view/?$ requests.php [L]
+
+RewriteRule ^support/advance/([0-9]+)?$ advance_report.php?id=$1 [L]
+
+# Moodle
+
+RewriteRule ^courses/([0-9]+)/view/?$ moodle.php?func=view&id=$1 [L]
+RewriteRule ^course/([0-9]+)/view/?$ moodle.php?func=view&id=$1 [L]
+RewriteRule ^courses/([0-9]+)/?$ moodle.php?func=view&id=$1 [L]
+RewriteRule ^course/([0-9]+)/?$ moodle.php?func=view&id=$1 [L]
+
+RewriteRule ^courses/([0-9]+)/enrol/?$ moodle.php?func=join&id=$1 [L]
+RewriteRule ^course/([0-9]+)/enrol/?$ moodle.php?func=join&id=$1 [L]
+
+RewriteRule ^courses/new moodle.php [L]
+RewriteRule ^course/new moodle.php [L]
+
+RewriteRule ^courses/all courses.php [L]
+RewriteRule ^course/all courses.php [L]
+RewriteRule ^courses/all/([0-9]+)/?$ courses.php?depart_id=$1 [L]
+RewriteRule ^course/all/([0-9]+)/?$ courses.php?depart_id=$1 [L]
+
+# Departments
+
+RewriteRule ^departments/([0-9]+)/?$ departments.php?id=$1 [L]
+RewriteRule ^department/([0-9]+)/?$ departments.php?id=$1 [L]

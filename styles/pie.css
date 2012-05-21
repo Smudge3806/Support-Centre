@@ -1,0 +1,16 @@
+﻿/* Custom PIE classes */
+
+body{
+	bahavior: url(PIE.php);
+}
+.container
+{
+	border: 1px solid #999;
+    padding:25px;
+    margin:25px 0px 0px 0px;
+    width:100%;
+    -webkit-box-shadow: #666 0px 0px 15px;
+	-moz-box-shadow: #666 0px 0px 15px;
+	box-shadow: #666 0px 0px 15px;
+	background-color:white; 
+}

@@ -1,0 +1,4 @@
+AuthUserFile "/home/barnsle2/.htpasswds/public_html/reporting/passwd"
+AuthType Basic
+AuthName "Please Enter Your Credentials"
+require valid-user

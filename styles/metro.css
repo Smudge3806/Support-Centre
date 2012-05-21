@@ -1,0 +1,168 @@
+﻿.metro #navigation
+{
+	width:660px;
+	margin:auto;
+	float:left;
+	clear:right;
+	color:black;
+}
+
+.metro a
+{
+	color:white;
+	text-decoration:none;
+}
+
+.metro #link
+{
+	min-width:95px;
+	max-width:95px;
+	min-height:20px;
+	max-height:20px;
+	margin:10px;
+	margin-top:10px;
+	display:inline;
+	float:left;
+	clear:right;
+	color:black;
+	margin-top:25px;
+	margin-bottom:10px;
+}
+
+.metro div#tile
+{
+	color:white;
+	text-decoration:none;
+	float:left;
+	clear:right;
+	min-height:100px;
+	max-height:100px;
+	min-width: 250px;
+	max-width:250px;
+	background-color:#0066CC;
+	padding:20px 20px 20px 20px;
+	margin:10px;
+	position:relative;
+}
+/*
+.metro a#small
+{
+	min-width:20px;
+	max-width:20px;
+	min-height:20px;
+	max-height:20px;
+	margin:10px;
+	margin-top:10px;
+	margin-bottom:0px
+}
+*/
+.metro #small-long
+{
+	min-width:250px;
+	max-width:250px;
+	min-height:20px;
+	max-height:20px;
+	padding:20px;
+	float:left;
+	margin:10px;
+	background-color:#0066CC;
+	color:white;
+}
+/*
+.metro a#navigation
+{
+	min-width:95px;
+	max-width:95px;
+	min-height:20px;
+	max-height:20px;
+	margin:10px;
+	margin-top:10px;
+}
+
+.metro a#login
+{
+	min-width:95px;
+	max-width:95px;
+	min-height:20px;
+	max-height:20px;
+	margin:10px;
+	margin-top:10px;
+	float:right;
+	margin-right: 50px;
+}
+
+.metro a#login:hover
+{
+text-decoration:underline;
+	text-transform:none;
+	background-color:#0099FF;	
+}
+
+.metro a#small:hover
+{
+	text-decoration:none;
+	text-transform:none;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:20px;
+	margin-bottom:15px
+
+}
+*/
+.metro #small-long:hover
+{
+	text-decoration:underline;
+	text-transform:none;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#0099FF;
+}
+/*
+.metro a#navigation:hover
+{
+	text-decoration:underline;
+	text-transform:none;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+
+.metro a span{
+	font-size:small;
+	font-variant:normal;
+	font-style:oblique;
+	display:block;
+	margin-top:5px;
+	line-height:20px
+}*/
+
+*/
+
+.metro a{
+	color:white;
+	text-decoration:none;
+}
+
+.metro a:hover{
+	text-decoration:underline;
+}
+
+.metro #title{
+	text-decoration:underline;
+}
+
+.metro div#tile:hover{
+	text-transform:none;
+	background-color:#0099FF;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.metro #name:hover{
+	text-decoration:underline;
+}

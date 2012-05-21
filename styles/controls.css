@@ -1,0 +1,59 @@
+﻿/*
+.input[type=button], input[type=submit], input[type=reset], input[type=file] ::-webkit-file-upload-button, button
+{
+	background-color: silver;
+	border: thin gray solid;
+	color:gray;
+	padding: 6px 9px;
+	min-height:30px;
+}
+
+.input[type=button], input[type=submit], input[type=reset], input[type=file] ::-webkit-file-upload-button, button:hover
+{
+	color:black;
+	box-shadow:#666 0px 0px 10px;
+	-webkit-box-shadow: #666 0px 0px 10px;
+	-moz-box-shadow: #666 0px 0px 10px;
+}
+
+keygen, select, select[size="0"], select[size="1"]
+{
+	height:30px;
+}
+
+keygen, select, select[size="0"], select[size="1"]:hover{
+	box-shadow:#666 0px 0px 10px;
+	-webkit-box-shadow: #666 0px 0px 10px;
+	-moz-box-shadow: #666 0px 0px 10px;
+
+}
+*/
+.uiInviteTable
+{
+	
+}
+
+.uiButton
+{
+	background-image:url(https://s-static.ak.fbcdn.net/rsrc.php/v1/yZ/r/l_kYQEMzvfA.png);
+	background-repeat:no-repeat;
+	background-position:0 -98px;
+	background-color:#5b74a8;
+	border-color:#29447e #29447e #1a356e;
+	padding: 1px 6px;
+	border: 1px solid;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+.uiButtonText
+{
+	color:white;
+	display: inline-block;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0;
+	padding: 1px 0 2px;
+	white-space: nowrap;
+}
