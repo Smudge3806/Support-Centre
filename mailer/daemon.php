@@ -3,6 +3,7 @@
 	{
 		function __construct($target, $message_type = NULL, $message_addon = NULL)
 		{
+			require_once("/home/barnsle2/perl/Mail.php");
 			global $to;
 			$this->to = $target;
 			global $sent;
@@ -13,9 +14,10 @@
 			global $addon;
 			
 			$this->subject = "A Message From Support Centre";
-			$this->addHeaders("MIME-Version: 1.0" . "\r\n");
-			$this->addHeaders("Content-type:text/html;charset=iso-8859-1" . "\r\n");
-			$this->addHeaders('From: webmaster@barnsley-ltu.co.uk' . "\r\n" . 'Reply-To: no-reply@barnsley-ltu.co.uk' . "\r\n" . 'X-Mailer: PHP/' . phpversion());
+			//$this->addHeaders("MIME-Version: 1.0" . "\r\n");
+			//$this->addHeaders("Content-type:text/html;charset=iso-8859-1" . "\r\n");
+			//$this->addHeaders('From: webmaster@barnsley-ltu.co.uk' . "\r\n" . 'Reply-To: no-reply@barnsley-ltu.co.uk' . "\r\n" . 'X-Mailer: PHP/' . phpversion());
+			$this->headers = array('From' => "webmaster@barnsley-ltu.co.uk", 'To' => $this->to, 'Subject' => $this->subject, 'MIME-Version' => "Content-type:text/html;charset=iso-8859-1", 'Content-type' => "text/html;charset=iso-8859-1");
 			global $parse_required;
 			$this->parse_required = array('required' => false, 'keyword' => NULL);
 			
@@ -59,7 +61,8 @@
 		
 		function send()
 		{
-			$sent = mail($this->to, $this->subject, $this->message, $this->headers);
+			$smtp = Mail::factory('smtp', array ('host' => "mail.barnsley-ltu.co.uk", 'auth' => true, 'username' => "barnsle2", 'password' => 'barnsle12'));
+			$sent = $smtp->send($this->to, $this->message, $this->headers);
 			
 			return $sent;
 		}

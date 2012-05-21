@@ -6,7 +6,7 @@
 			
 				$to = $_POST['addr'];
 				$subject = "Barnsley LTU - Mail Setup";
-				$filename = "test.txt";
+				$filename = "templates/user_register_confirmation.txt";
 				$message = file_get_contents($filename, FILE_USE_INCLUDE_PATH);
 				
 				// Always set content-type when sending HTML email
@@ -26,7 +26,7 @@
 			else
 			{
 				require_once('daemon.php');
-				$mailer = new Daemon($_POST['addr'], "new suppport");
+				$mailer = new Daemon($_POST['addr'], "register", md5(md5($_POST['addr'])));
 				$sent = $mailer->send();
 				if($sent)
 				{

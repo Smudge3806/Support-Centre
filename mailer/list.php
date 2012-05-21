@@ -15,6 +15,8 @@
 		
 		case "new support":
 			$output = "templates/support_new.txt";
+			$parse true;
+			$keyword ="[[id]]";
 			break;
 		case "support logged":
 			$output = "templates/support_logged.txt";
