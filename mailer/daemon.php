@@ -3,7 +3,11 @@
 	{
 		function __construct($target, $message_type = NULL, $message_addon = NULL)
 		{
-			require_once("/home/barnsle2/perl/Mail.php");
+			if(!file_exists('Mail.php'))
+			{
+				echo("ERROR: Can't Find File");
+			}
+			require_once "Mail.php";
 			global $to;
 			$this->to = $target;
 			global $sent;
