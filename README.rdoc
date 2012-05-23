@@ -1,0 +1,3 @@
+## Purpose of System ##
+
+To provide an online portal allowing staff at Barnsley College to post Support Tickets and Requests for Training directly to the assigned Support Officer. 
