@@ -1,6 +1,4 @@
 <div id="event_info_ui" style="width:48%;float:left;clear:none;margin-left:2%">
-	<fieldset>
-		<legend>Training Events</legend>
 		<?php
 			$result = $mysqli->query('SELECT * FROM training_registers WHERE user_id ='.$user->id);
 			if($result->num_rows == 0)
@@ -41,5 +39,5 @@
 				<?php
 			}
 		?>
-	</fieldset>
+
 </div>

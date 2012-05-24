@@ -140,7 +140,6 @@
 			<li><a rel="support" onclick="switchTab(this)">Support Requests</a></li>
 			<li><a rel="training" onclick="switchTab(this)">Training Events</a></li>
 			<li><a rel="messages" onclick="switchTab(this)">Message Board</a></li>
-			<li><a rel="moodle" onclick="switchTab(this)">Moodle</a></li>
 		</ul>
 	</div>
 	<div id="content">
@@ -173,7 +172,7 @@
 			</div>
 			<div class="content">
 				<div id="events">
-					<?php //include('views/user_events.php'); ?>
+					<?php include('views/user_events.php'); ?>
 				</div>
 				<div id="event">
 					
@@ -189,21 +188,10 @@
 				</div>
 			</div>
 			<div class="content">
-				<?php //include('views/user_messages.php'); ?>
+				<?php include('views/user_messages.php'); ?>
 			</div>
 		</div>
-			
-		<div id="moodle">
-			<div class="description">
-				<div class="inner" style="opacity:0.99;box-shadow:#666 0px 0px 25px;">
-					<h2 id="title">Moodle Pages</h2>
-				</div>
-			</div>
-			<div class="content">
-				<?php //include('views/user_moodle.php'); ?>
-			</div>
-		</div>
-				
+							
 	</div>
 	<a href="#error" id="hidden_link" style="display:none">Message</a>
 	<div id="message_box">
