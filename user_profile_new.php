@@ -161,7 +161,7 @@
 				</div>
 			</div>
 			<div class="content">
-				<?php //include('views/user_support.php'); ?>
+				<?php include('views/user_support.php'); ?>
 			</div>
 		</div>
 		

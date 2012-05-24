@@ -1,6 +1,4 @@
-<div id="support_info_ui" style="width:48%;float:left;clear:left;">
-	<fieldset>
-		<legend>Support Requests</legend>
+<div id="support_info_ui" style="width:756px;float:left;clear:left;">
 		<?php
 			$result = $mysqli->query('SELECT * FROM support_requests WHERE uid = '.$user->id);
 			if($result->num_rows == 0)
@@ -59,5 +57,4 @@
 				}
 			}
 		?>
-	</fieldset>
 </div>
