@@ -1,39 +1,5 @@
 <div id="functions_ui">
-	<fieldset>
-		<legend>User Functions</legend>
-		<table>
-			<!--
-			<tr>
-				<td>
-					<form name="account" method="post" action="user_profile.php?id=<?php echo $user->id; ?>&m=This Feature is not available Yet">
-					<label>Account:</label>
-						<input type="hidden" name="page" value="user_profile.php?id=<?php echo $user->id; ?>">
-						<input type="hidden" name="uid" value="<?php echo $user->id; ?>">
-						<select name="type">
-							<?php if($user->account_type == "Admin"){ ?>
-							<option value="Admin" selected="selected">Admin</option>
-							<option value="User">User</option>
-							<?php }else{ ?>
-							<option value="Admin">Admin</option>
-							<option value="User" selected="selected">User</option>
-							<?php } ?>							
-						</select>
-						<input type="submit" value="Change">
-					</form>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<form name="delete" method="post" action="user_profile.php?id=<?php echo $user->id; ?>&m=This Feature is not available Yet">
-						<label>Delete User:</label>
-							<input type="hidden" name="page" value="user_profile.php?id=<?php echo $user->id; ?>">
-							<input type="hidden" name="user" value="<?php echo $_SESSION['uid']; ?>">
-							<input type="hidden" name="deactiv_user" value="<?php $user->id; ?>">
-							<input type="password" name="password" placeholder="Your Password" required>
-							<input type="submit" value="Delete">
-					</form>
-				</td>
-			</tr>-->
+		<table style="width:348px !important">
 			<tr>
 				<td>
 					<a href="http://www.barnsley-ltu.co.uk/support/new/moodle/<?php echo $user->id; ?>/">Add a support request.</a>
@@ -133,5 +99,4 @@
 				</form>
 			</div>
 		</div>
-	</fieldset>
 </div>

@@ -140,7 +140,6 @@
 			<li><a rel="support" onclick="switchTab(this)">Support Requests</a></li>
 			<li><a rel="training" onclick="switchTab(this)">Training Events</a></li>
 			<li><a rel="messages" onclick="switchTab(this)">Message Board</a></li>
-			<li><a rel="equipment" onclick="switchTab(this)">Equipment</a></li>
 			<li><a rel="moodle" onclick="switchTab(this)">Moodle</a></li>
 		</ul>
 	</div>
@@ -152,7 +151,7 @@
 				</div>
 			</div>
 			<div class="content">
-				<?php //include('views/user_profile.php'); include('views/user_functions.php'); ?>
+				<?php include('views/user_profile.php'); include('views/user_functions.php'); ?>
 			</div>
 		</div>
 		<div id="support">
@@ -193,18 +192,7 @@
 				<?php //include('views/user_messages.php'); ?>
 			</div>
 		</div>
-		
-		<div id="equipment">
-			<div class="description">
-				<div class="inner" style="opacity:0.99;box-shadow:#666 0px 0px 25px">
-					<h2 id="title">Issued Equipment</h2>
-				</div>
-			</div>
-			<div class="content">
 			
-			</div>
-		</div>
-		
 		<div id="moodle">
 			<div class="description">
 				<div class="inner" style="opacity:0.99;box-shadow:#666 0px 0px 25px;">

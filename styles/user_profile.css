@@ -1,10 +1,4 @@
-﻿fieldset{
-border:thin black solid;
-background-color:white;
-float:left;
-clear:left;
-}
-#alt
+﻿#alt
 {
 	background-color:#99CCFF;
 }
@@ -25,8 +19,8 @@ clear:left;
 {
 	float:left;
 	clear:left;
-	margin-top:25px;
-	width:48%;
+	width:348px !important;
+	margin:0px 10px;
 }
 
 #functions_ui
@@ -34,8 +28,8 @@ clear:left;
 	float:left;
 	clear:right;
 	margin-top:15px;
-	margin-left:2%;
-	width:48%;
+	width:348px !important;
+	margin:0px 10px;
 }
 
 .UserAdmin #UserTile
