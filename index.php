@@ -129,7 +129,6 @@
 			<li><a rel="messages" onclick="switchTab(this)">Your Messages</a></li>
 			<li><a rel="moodle" onclick="switchTab(this)">Moodle</a></li>
 			<li><a rel="administration" onclick="switchTab(this)">Administration</a></li>
-			<li><a rel="equipment" onclick="switchTab(this)">Equipment</a></li>
 		</ul>
 	</div>
 	<div id="content">
