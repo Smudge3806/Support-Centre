@@ -18,7 +18,7 @@
 			switch($rel)
 			{
 				case "full":
-					$this->output = "<a href='http://www.barnsley-ltu.co.uk/users/".$user->id."/".$page."' title='Click here to see ".$user->username."'s profile'>".$user->username."</a>";
+					$this->output = "<a href='https://www.barnsley-ltu.co.uk/users/".$user->id."/".$page."' title='Click here to see ".$user->username."'s profile'>".$user->username."</a>";
 					break;
 				case "url":
 					$this->output = "users/".$user->id."/".$page;

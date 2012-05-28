@@ -29,10 +29,10 @@
 					$support = new Support_Request($report->rid);
 			?>
 			<tr>
-				<td><a href="http://www.barnsley-ltu.co.uk/users/<?php echo $user->id; ?>/admin" title="View this User"><?php echo $user->username; ?></a></td>
-				<td><a href="http://www.barnsley-ltu.co.uk/support/<?php echo $support->rid; ?>" title="View this Report"><?php echo $support->type; ?></a></td>
+				<td><a href="https://www.barnsley-ltu.co.uk/users/<?php echo $user->id; ?>/admin" title="View this User"><?php echo $user->username; ?></a></td>
+				<td><a href="https://www.barnsley-ltu.co.uk/support/<?php echo $support->rid; ?>" title="View this Report"><?php echo $support->type; ?></a></td>
 				<td><?php require_once('models/datetime.php'); $dt = new TimeStamp($support->created_on); echo $dt->short." ".$dt->hour.":".$dt->minutes; ?></td>
-				<td><a href="http://www.barnsley-ltu.co.uk/support/<?php echo $support->rid; ?>/reopen" title="Recall this Report">Recall</a></td>
+				<td><a href="https://www.barnsley-ltu.co.uk/support/<?php echo $support->rid; ?>/reopen" title="Recall this Report">Recall</a></td>
 			</tr>
 			<?php
 			}

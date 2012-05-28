@@ -58,7 +58,7 @@
 							$support = new Support_Request($report->rid);
 						?>
 					<tr >
-						<td><a href="http://www.barnsley-ltu.co.uk/users/<?php echo $report->uid; ?>/admin" title="View this Users Details"><?php echo $user->username; ?></a></td>
+						<td><a href="https://www.barnsley-ltu.co.uk/users/<?php echo $report->uid; ?>/admin" title="View this Users Details"><?php echo $user->username; ?></a></td>
 						<td><?php echo $support->type; ?></td>
 						<td><?php require_once('models/datetime.php'); $dt = new TimeStamp($support->created_on); echo $dt->short." ".$dt->hour.":".$dt->minutes; ?></td>
 						<td style="text-align:center;background-color:<?php if($support->status == "Open"){ echo "yellow"; }else{ echo "red"; }?>"><?php echo $support->status; ?></td>

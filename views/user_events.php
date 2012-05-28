@@ -26,9 +26,9 @@
 															
 								?>
 								<tr>
-									<td><a href="event.php?id=<?php echo $event->id; ?>"><?php echo $event->title; ?></a></td>
+									<td><a href="https://www.barnsley-ltu.co.uk/event/<?php echo $event->id; ?>"><?php echo $event->title; ?></a></td>
 									<td><?php echo $event->level; ?></td>
-									<td><a href="user_profile.php?id=<?php echo $event->organiser->id; ?>"><?php echo $event->organiser->username; ?></a></td>
+									<td><a href="https://www.barnsley-ltu.co.uk/user/<?php echo $event->organiser->id; ?>/admin"><?php echo $event->organiser->username; ?></a></td>
 									<td><?php $date = $event->held_on; if($date != "TBC"){ $date = explode(" ", $date);}else{$date = array(); $date[] = "TBC"; $date[] = "TBC";}?><a title="<?php echo $date[1]; ?>"><?php echo $date[0]; ?></a></td>	
 										
 								</tr>

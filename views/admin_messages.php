@@ -25,7 +25,7 @@
 					<tr>
 						<td><a href="messages/<?php echo $message->thread_id; ?>/reply/<?php echo $message->sender->id; ?>">Reply to this User</a> |</td>
 						<td><a href="messages/<?php echo $message->thread_id; ?>">View Thread</a> |</td>
-						<td><a href="http://www.barnsley-ltu.co.uk/controllers/thread_delete.php?id=<?php echo $message->thread_id;?>&page=index">Delete this Message</a></td>
+						<td><a href="https://www.barnsley-ltu.co.uk/controllers/thread_delete.php?id=<?php echo $message->thread_id;?>&page=index">Delete this Message</a></td>
 					</tr>
 				</table>
 				<hr>

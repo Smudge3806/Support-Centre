@@ -25,18 +25,18 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>LTU Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/admin.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/admin_table.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/message_boxes.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/icons.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/user_profile.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" >
-<script type="text/javascript" src="http://www.barnsley-ltu.co.uk/scripts/admin.js"></script>
-<script type="text/javascript" src="http://www.barnsley-ltu.co.uk/scripts/adminMoodleControl.js"></script>
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/admin.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/admin_table.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/message_boxes.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/icons.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/user_profile.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" >
+<script type="text/javascript" src="https://www.barnsley-ltu.co.uk/scripts/admin.js"></script>
+<script type="text/javascript" src="https://www.barnsley-ltu.co.uk/scripts/adminMoodleControl.js"></script>
 <?php
 	include('scripts/import_fancybox.php');
 ?>

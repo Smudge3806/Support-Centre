@@ -26,7 +26,7 @@
 		</div>
 		<div id="MoodleControls">
 			<span class="MoodleControlNew">
-				<a href="http://www.barnsley-ltu.co.uk/courses/new">Create a Course</a>
+				<a href="https://www.barnsley-ltu.co.uk/courses/new">Create a Course</a>
 			</span>
 		</div>
 		<hr>
@@ -56,7 +56,7 @@
 							$course = new MoodleCourse($course->page_id);
 							?>
 								<span class="MoodleTile">
-									<a href="http://www.barnsley-ltu.co.uk/courses/<?php echo $course->id; ?>/view" class="MoodleTileTitle"><?php echo $course->moodle_title; ?></a>
+									<a href="https://www.barnsley-ltu.co.uk/courses/<?php echo $course->id; ?>/view" class="MoodleTileTitle"><?php echo $course->moodle_title; ?></a>
 									<a href="<?php echo $course->url; ?>" class="MoodleTileURL"><?php echo $course->url; ?></a>
 								</span>
 							<?php

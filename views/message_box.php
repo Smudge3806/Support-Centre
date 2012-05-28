@@ -28,7 +28,7 @@
 			<div class="MessageItem" id="Message<?php echo $row->message_id; ?>">
 				<p class="MessageItemName"><?php $link = new User_Link($user = new User($row->sender)); echo $link->output; ?></p>
 				<p class="MessageItemDate"><?php $dt = new TimeStamp($row->sent_on); echo $dt->str_short; ?></p>
-				<p class="MessageItemSubject"><a href="http://www.barnsley-ltu.co.uk/messages/<?php echo $row->thread_id; ?>"><?php echo substr($row->message,0,40); ?></a></p>
+				<p class="MessageItemSubject"><a href="https://www.barnsley-ltu.co.uk/messages/<?php echo $row->thread_id; ?>"><?php echo substr($row->message,0,40); ?></a></p>
 			</div>
 			<?php
 				}
@@ -64,7 +64,7 @@
 			<div class="MessageItem" id="Message<?php echo $row->message_id; ?>">
 				<p class="MessageItemName"><?php $link = new User_Link($user = new User($row->recipient)); echo $link->output; ?></p>
 				<p class="MessageItemDate"><?php $dt = new TimeStamp($row->sent_on); echo $dt->str_short; ?></p>
-				<p class="MessageItemSubject"><a href="http://www.barnsley-ltu.co.uk/messages/<?php echo $row->thread_id; ?>"><?php echo substr($row->message,0,40); ?></a></p>
+				<p class="MessageItemSubject"><a href="https://www.barnsley-ltu.co.uk/messages/<?php echo $row->thread_id; ?>"><?php echo substr($row->message,0,40); ?></a></p>
 			</div>
 			<?php
 					}

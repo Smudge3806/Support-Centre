@@ -13,7 +13,7 @@
 	}
 	else
 	{
-		$addr = "http://www.barnsley-ltu.co.uk/";
+		$addr = "https://www.barnsley-ltu.co.uk/";
 	}
 	DEFINE("PATH", $addr, true);
 ?>

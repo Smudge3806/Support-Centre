@@ -35,11 +35,11 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>Thread: <?php echo $thread->topic; ?> - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -49,7 +49,7 @@
 			?>
 				<div class="notice">
 					<p style="float:left"><?php echo $_GET['m']; ?></p>
-					<a href="http://www.barnsley-ltu.co.uk/profile.php" title="Clear" id="clear">     </a>
+					<a href="https://www.barnsley-ltu.co.uk/profile.php" title="Clear" id="clear">     </a>
 				</div>
 			<?php
 		}
@@ -80,7 +80,7 @@
 			<br>
 			<div class="side">
 				<div class="inner_side" style="opacity:1;box-shadow: #666 5px 5px 25px;">
-					<p>From: <a href="http://www.barnsley-ltu.co.uk/<?php if($_SESSION['account'] == "admin"){echo "user_profile.php";}else{echo "profile.php";}echo "?id=".$message['sender']->id; ?>"><?php echo $message['sender']->username; ?></a></p>
+					<p>From: <a href="https://www.barnsley-ltu.co.uk/<?php if($_SESSION['account'] == "admin"){echo "user_profile.php";}else{echo "profile.php";}echo "?id=".$message['sender']->id; ?>"><?php echo $message['sender']->username; ?></a></p>
 				</div>
 			</div>
 
@@ -101,8 +101,8 @@
 	?>
 	</div>
 	<div id="controls" style="float:left;clear:both;background-color:white;box-shadow: #666 0px 0px 15px;border-radius:5px;margin-left:13px; margin-top:25px; margin-right:14px; padding:25px; margin-bottom:25px;">
-		<a href="http://www.barnsley-ltu.co.uk/controllers/thread_delete.php?id=<?php echo $thread->thread_id; ?>&page=notifications">Delete Thread</a>
-		<a href="http://www.barnsley-ltu.co.uk/messages/<?php echo $thread->thread_id; ?>/reply/<?php echo $others[0]; ?>">Send a Reply</a>
+		<a href="https://www.barnsley-ltu.co.uk/controllers/thread_delete.php?id=<?php echo $thread->thread_id; ?>&page=notifications">Delete Thread</a>
+		<a href="https://www.barnsley-ltu.co.uk/messages/<?php echo $thread->thread_id; ?>/reply/<?php echo $others[0]; ?>">Send a Reply</a>
 	</div>
 </body>
 

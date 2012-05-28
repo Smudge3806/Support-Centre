@@ -1,6 +1,6 @@
 <div id="tile">
 	
-		<a href="http://www.barnsley-ltu.co.uk/support/view/" title="See your Support Requests">All Support Requests</a>
+		<a href="https://www.barnsley-ltu.co.uk/support/view/" title="See your Support Requests">All Support Requests</a>
 			<div id="slider1" style="font-size:small;padding-top:20px">
 				<div>
 					<p style="font-size:small;padding-top:0px;margin-top:0px">See your most recent support requests here.
@@ -15,7 +15,7 @@
 							<p style="margin:0px;padding:0px">You don't have any active Support Requests.</p>
 						</div>
 						<div>
-							<a href="http://www.barnsley-ltu.co.uk/support/new/moodle/<?php echo $uid; ?>" title="Click here to submit a support request">Click here to Submit a Support Request</a>
+							<a href="https://www.barnsley-ltu.co.uk/support/new/moodle/<?php echo $uid; ?>" title="Click here to submit a support request">Click here to Submit a Support Request</a>
 						</div>
 					<?php
 				}
@@ -58,8 +58,8 @@
 
 						?>
 						<tr>
-							<td><a href="http://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $summary; ?></a></td>
-							<td><a href="http://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $request->status; ?></a></td>
+							<td><a href="https://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $summary; ?></a></td>
+							<td><a href="https://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $request->status; ?></a></td>
 						</tr>
 						<?php } ?>
 					</table>
@@ -100,8 +100,8 @@
 
 							?>
 								<tr>
-									<td><a href="http://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $summary; ?></a></td>
-									<td><a href="http://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $request->status; ?></a></td>
+									<td><a href="https://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $summary; ?></a></td>
+									<td><a href="https://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $request->status; ?></a></td>
 								</tr>
 							<?php
 							}
@@ -141,8 +141,8 @@
 								}
 							?>
 								<tr>
-									<td><a href="http://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $summary; ?></a></td>
-									<td><a href="http://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $request->status; ?></a></td>
+									<td><a href="https://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $summary; ?></a></td>
+									<td><a href="https://www.barnsley-ltu.co.uk/support/<?php echo $request->rid; ?>" title="Click here to see this request"><?php echo $request->status; ?></a></td>
 								</tr>
 							<?php
 							}
@@ -153,7 +153,7 @@
 				
 
 				<div>
-						<a href="http://www.barnsley-ltu.co.uk/support/new/moodle/<?php echo $uid; ?>" title="Click here to submit a support request">Click here to Submit a Support Request</a>
+						<a href="https://www.barnsley-ltu.co.uk/support/new/moodle/<?php echo $uid; ?>" title="Click here to submit a support request">Click here to Submit a Support Request</a>
 				</div>
 
 			<?php 

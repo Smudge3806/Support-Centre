@@ -8,13 +8,13 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" >
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" >
 <title>ILT Training</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/admin_table.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/admin_table.css">
 </head>
 
 <body>
@@ -43,7 +43,7 @@
 				if($results->num_rows == 0)
 				{
 					?>
-						<p>There is currently no training events booked for you.</p><p>Click <a href="http://www.barnsley-ltu.co.uk/event/new/">here</a> to book a training event.</p>
+						<p>There is currently no training events booked for you.</p><p>Click <a href="https://www.barnsley-ltu.co.uk/event/new/">here</a> to book a training event.</p>
 					<?php
 				}
 				else
@@ -72,10 +72,10 @@
 							$event = new Training_Event($raw->event_id, true);
 						?>
 					<tr>
-						<td><a href="http://www.barnsley-ltu.co.uk/events/<?php echo $event->id; ?>/"><?php echo $event->title; ?></a></td>
+						<td><a href="https://www.barnsley-ltu.co.uk/events/<?php echo $event->id; ?>/"><?php echo $event->title; ?></a></td>
 						<td><?php echo $event->location; ?></td>
 						<td><?php require_once('models/datetime.php'); $date = new TimeStamp($event->held_on); echo $date->str_date; ?></td>
-						<td><a href="http://www.barnsley-ltu.co.uk/users/<?php echo $event->organiser->id; ?>"><?php echo $event->organiser->username; ?></a></td>
+						<td><a href="https://www.barnsley-ltu.co.uk/users/<?php echo $event->organiser->id; ?>"><?php echo $event->organiser->username; ?></a></td>
 					</tr>
 					<?php
 						}

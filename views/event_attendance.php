@@ -36,7 +36,7 @@
 			$entry = $event->register[$x];					
 	?>
 	<tr>
-			<td><a href="http://www.barnsley-ltu.co.uk/users/<?php echo $entry['user']->id; ?>"><?php echo $entry['user']->username; ?></a></td>
+			<td><a href="https://www.barnsley-ltu.co.uk/users/<?php echo $entry['user']->id; ?>"><?php echo $entry['user']->username; ?></a></td>
 			<td><?php require_once('models/department.php'); $dep = new Department($entry['user']->department); echo $dep->name; ?></td>
 			<td><?php if($_SESSION['account'] == "admin" || $_SESSION['uid'] == $entry['user']->id){ ?>
 				<form>

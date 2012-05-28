@@ -2,7 +2,7 @@
 		<table style="width:348px !important">
 			<tr>
 				<td>
-					<a href="http://www.barnsley-ltu.co.uk/support/new/moodle/<?php echo $user->id; ?>/">Add a support request.</a>
+					<a href="https://www.barnsley-ltu.co.uk/support/new/moodle/<?php echo $user->id; ?>/">Add a support request.</a>
 				</td>
 			</tr>
 			<tr>
@@ -59,24 +59,24 @@
 				<span onclick="this.parentNode.innerHTML = document.getElementById('last_name').innerHTML"><?php echo $user->last_name; ?></span>
 			</div>
 			<div id="first_name">
-				<form name="forename" action="http://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
-					<input type="hidden" name="page" value="http://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
+				<form name="forename" action="https://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
+					<input type="hidden" name="page" value="https://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
 					<input type="hidden" name="field" value="forename">
 					<input type="text" name="info" placeholder="Forename: <?php echo $user->first_name; ?>" required>
 					<input type="submit" value="Change"> 
 				</form>
 			</div>
 			<div id="last_name">
-				<form name="surname" action="http://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
-					<input type="hidden" name="page" value="http://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
+				<form name="surname" action="https://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
+					<input type="hidden" name="page" value="https://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
 					<input type="hidden" name="field" value="surname">
 					<input type="text" name="info" placeholder="Surname: <?php echo $user->last_name; ?>" required>
 					<input type="submit" value="Change"> 
 				</form>
 			</div>
 			<div id="password">
-				<form name="password" method="post" action="http://www.barnsley-ltu.co.uk/controllers/change_password.php">
-					<input type="hidden" name="page" value="http://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
+				<form name="password" method="post" action="https://www.barnsley-ltu.co.uk/controllers/change_password.php">
+					<input type="hidden" name="page" value="https://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
 					<input type="hidden" name="password" value="password">
 					<input type="submit" value="Reset Password">
 				</form>
