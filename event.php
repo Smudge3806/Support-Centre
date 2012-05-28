@@ -22,13 +22,13 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title><?php echo $event->title; ?> - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/event.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/notes.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/event.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/notes.css">
 <?php include('scripts/import_fancybox.php'); ?>
 <script type="text/javascript">
 	
@@ -50,13 +50,13 @@
 		var answer = confirm("Are you sure you want to delete this event?");
 		if(answer)
 		{
-			window.location = 'http://www.barnsley-ltu.co.uk/controllers/delete_event.php?id=<?php echo $_GET['id']; ?>';
+			window.location = 'https://www.barnsley-ltu.co.uk/controllers/delete_event.php?id=<?php echo $_GET['id']; ?>';
 		}
 	}
 	
 	function alterAttendance(value, user_id)
 	{
-		window.location = 'http://www.barnsley-ltu.co.uk/controllers/event_alter_attendance.php?eid=<?php echo $event->id; ?>&uid='+user_id+'&page=events/<?php echo $event->id; ?>&att='+value;
+		window.location = 'https://www.barnsley-ltu.co.uk/controllers/event_alter_attendance.php?eid=<?php echo $event->id; ?>&uid='+user_id+'&page=events/<?php echo $event->id; ?>&att='+value;
 	}
 	
 	
@@ -175,7 +175,7 @@
 		<div id="submit" style="clear:both;float:left">
 		<hr>
 		<p>Add a note about this event.</p>
-			<form action="http://www.barnsley-ltu.co.uk/controllers/event_add_note.php" method="get">
+			<form action="https://www.barnsley-ltu.co.uk/controllers/event_add_note.php" method="get">
 			<table>
 				<tr>	
 					<td><textarea cols="50" rows="10" name="mess" maxlength="500" placeholder="What do you want to add to this event?" onkeydown="counter(this)"></textarea></td>
@@ -191,7 +191,7 @@
 	</div>
 	
 	<div id="contentUI" style="display:none">
-		<a href="http://www.barnsley-ltu.co.uk/windows/test_invite.php?event_id=<?php echo $_GET['id'];?>" id="frame"></a>
+		<a href="https://www.barnsley-ltu.co.uk/windows/test_invite.php?event_id=<?php echo $_GET['id'];?>" id="frame"></a>
 	</div>
 	
 </body>

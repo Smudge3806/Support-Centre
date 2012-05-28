@@ -7,11 +7,11 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>Advance Report - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/X-CUT">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/X-CUT">
 <style type="text/css">
 input[type=submit]
 {
@@ -58,7 +58,7 @@ input[type=submit]
 	</div>
 	<div style="background-color:white;border-radius:5px;box-shadow:#666 0px 0px 25px;padding:25px;margin:-25px 14px 25px 14px;float:left;width:605px">
 		<div style="width:250px;margin:auto">
-			<form id="support_advance" action="http://www.barnsley-ltu.co.uk/controllers/advance_reports.php" method="post">
+			<form id="support_advance" action="https://www.barnsley-ltu.co.uk/controllers/advance_reports.php" method="post">
 				<?php
 					include('controllers/dbconnection.php');
 					$result = $mysqli->query('SELECT uid, CONCAT(first_name, " ", last_name) AS name FROM get_support_officers WHERE uid != '.$_SESSION['uid'].' GROUP BY uid');

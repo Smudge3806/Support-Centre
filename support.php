@@ -98,12 +98,12 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title><?php echo $support->type; ?> - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/notes.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/notes.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico">
 <script type="text/javascript">
 	function counter(thisfield)
 	{
@@ -205,13 +205,13 @@
 							if($_SESSION['account'] == "admin")
 							{
 								?>
-								<p id="title">From: <a href='http://www.barnsley-ltu.co.uk/users/<?php echo $note['sender']->id; ?>/admin' title="See <?php echo $note['sender']->username; ?>'s Profile"><?php echo $note['sender']->username; ?></a></p>
+								<p id="title">From: <a href='https://www.barnsley-ltu.co.uk/users/<?php echo $note['sender']->id; ?>/admin' title="See <?php echo $note['sender']->username; ?>'s Profile"><?php echo $note['sender']->username; ?></a></p>
 								<?php
 							}
 							else
 							{
 								?>
-								<p id="title">From: <a href='http://www.barnsley-ltu.co.uk/users/<?php echo $note['sender']->id; ?>' title="See <?php echo $note['sender']->username; ?>'s Profile"><?php echo $note['sender']->username; ?></a></p>
+								<p id="title">From: <a href='https://www.barnsley-ltu.co.uk/users/<?php echo $note['sender']->id; ?>' title="See <?php echo $note['sender']->username; ?>'s Profile"><?php echo $note['sender']->username; ?></a></p>
 								<?php
 							}
 							?>
@@ -237,7 +237,7 @@
 					<div id="submit">
 					<hr>
 					<p>Add a note about this event.</p>
-						<form action="http://www.barnsley-ltu.co.uk/controllers/support_add_note.php" method="post">
+						<form action="https://www.barnsley-ltu.co.uk/controllers/support_add_note.php" method="post">
 						<table>
 							<tr>	
 								<td><textarea cols="50" rows="10" name="mess" maxlength="500" placeholder="What do you want to add to this event?" onkeydown="counter(this)"></textarea></td>
@@ -263,18 +263,18 @@
 						<select name="status" onchange="window.location = this.options[this.selectedIndex].value">
 							<option selected="selected">Change Status To...</option>
 							<?php if($support->status == "Inbox"){ ?>
-							<option value="http://www.barnsley-ltu.co.uk/support/<?php echo $id; ?>/open" style="background:yellow">Open</option>
+							<option value="https://www.barnsley-ltu.co.uk/support/<?php echo $id; ?>/open" style="background:yellow">Open</option>
 							<?php } ?>
-							<option value="http://www.barnsley-ltu.co.uk/support/<?php echo $id; ?>/close" style="background:lime">Closed</option>
+							<option value="https://www.barnsley-ltu.co.uk/support/<?php echo $id; ?>/close" style="background:lime">Closed</option>
 						</select> | 
 						<?php }elseif($support->status == "Closed"){ ?>
-						<a href="http://www.barnsley-ltu.co.uk/support/<?php echo $id; ?>/reopen" title="Re-Open this Support Request">Recall</a> | 
+						<a href="https://www.barnsley-ltu.co.uk/support/<?php echo $id; ?>/reopen" title="Re-Open this Support Request">Recall</a> | 
 						<?php } ?></li>
 					<li>
-						<a href="http://www.barnsley-ltu.co.uk/support/<?php echo $_GET['id']; ?>/nudge/<?php echo $sod->id; ?>" title="Nudge <?php echo $sod->username; ?> to see if there has been any progress">Nudge Support Officer</a>
+						<a href="https://www.barnsley-ltu.co.uk/support/<?php echo $_GET['id']; ?>/nudge/<?php echo $sod->id; ?>" title="Nudge <?php echo $sod->username; ?> to see if there has been any progress">Nudge Support Officer</a>
 					</li>
 					<?php if($_SESSION['account'] == "admin"){ ?>
-					<li> | <a href="http://www.barnsley-ltu.co.uk/support/<?php echo $_GET['id']; ?>/advance" title="Advance this Report to another Officer">Advance Report</a></li>
+					<li> | <a href="https://www.barnsley-ltu.co.uk/support/<?php echo $_GET['id']; ?>/advance" title="Advance this Report to another Officer">Advance Report</a></li>
 					<?php } ?>
 				</ul>
 			</div>

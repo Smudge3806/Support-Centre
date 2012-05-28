@@ -11,7 +11,7 @@
 		//$_SESSION['username'] = $user->first_name.' '.$user->last_name;
 		$_SESSION['account'] = "user";
 		// Access
-		header('location: http://www.barnsley-ltu.co.uk/user');
+		header('location: https://www.barnsley-ltu.co.uk/user');
 	}
 	elseif($_GET['perm'] == "cookie")
 	{
@@ -29,17 +29,17 @@
 			unset($user);
 			if(strtolower($_SESSION['account']) == "user")
 			{
-				header('location: http://www.barnsley-ltu.co.uk/user');
+				header('location: https://www.barnsley-ltu.co.uk/user');
 			}
 			else
 			{
-				header('location: http://www.barnsley-ltu.co.uk/index.php');
+				header('location: https://www.barnsley-ltu.co.uk/index.php');
 			}
 		}
 		else
 		{
 			setcookie('barns_code', "", time()-3600);
-			header('location: http://www.barnsley-ltu.co.uk/login/');
+			header('location: https://www.barnsley-ltu.co.uk/login/');
 		}
 	}
 	else
@@ -78,18 +78,18 @@
 					if(strtolower($row->type) == "user")
 					{
 						include('controllers/ip_add.php');
-						header('location: http://www.barnsley-ltu.co.uk/user');
+						header('location: https://www.barnsley-ltu.co.uk/user');
 					}
 					else
 					{
-						header('location: http://www.barnsley-ltu.co.uk/index.php');
+						header('location: https://www.barnsley-ltu.co.uk/index.php');
 						//header('location: wall.php');
 					}
 				}
 				else
 				{
 					// Incorrect Password
-					header('location: login.php?e=3');
+					header('location: https://ww.barnsley-ltu.co.uk/login/e/3');
 					//var_dump($_POST,$password, $row->password);
 				}
 				
@@ -97,13 +97,13 @@
 			else
 			{
 				// Missing Password
-				header('location: http://www.barnsley-ltu.co.uk/login/e/2');				
+				header('location: https://www.barnsley-ltu.co.uk/login/e/2');				
 			}	
 		}
 		else
 		{
 			// No Such User
-			header('location: http://www.barnsley-ltu.co.uk/login/e/1');
+			header('location: https://www.barnsley-ltu.co.uk/login/e/1');
 		}
 				
 					

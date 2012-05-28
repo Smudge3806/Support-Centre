@@ -5,11 +5,11 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>New Training Event - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="SHORTCUT ICON" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="SHORTCUT ICON" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
 <style type="text/css">
 	#content{
 		background-color:white;
@@ -25,9 +25,9 @@
 		border-bottom-right-radius:5px;
 }
 </style>
-<link type="text/css" href="http://www.barnsley-ltu.co.uk/scripts/jquery/css/ui-lightness/jquery-ui-1.8.18.custom.css" rel="stylesheet" >	
-<script type="text/javascript" src="http://www.barnsley-ltu.co.uk/scripts/jquery/js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="http://www.barnsley-ltu.co.uk/scripts/jquery/js/jquery-ui-1.8.18.custom.min.js"></script>
+<link type="text/css" href="https://www.barnsley-ltu.co.uk/scripts/jquery/css/ui-lightness/jquery-ui-1.8.18.custom.css" rel="stylesheet" >	
+<script type="text/javascript" src="https://www.barnsley-ltu.co.uk/scripts/jquery/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="https://www.barnsley-ltu.co.uk/scripts/jquery/js/jquery-ui-1.8.18.custom.min.js"></script>
 <script type="text/javascript">
 	$(function() {
 		$( "#datepicker" ).datepicker({
@@ -71,7 +71,7 @@
 						Step 1 - The Event
 					</h2>
 				</div>
-				<form action="http://www.barnsley-ltu.co.uk/controllers/new_training_event.php" method="post" style="clear:both;float:left">
+				<form action="https://www.barnsley-ltu.co.uk/controllers/new_training_event.php" method="post" style="clear:both;float:left">
 					<table>
 						<tr>
 							<td>

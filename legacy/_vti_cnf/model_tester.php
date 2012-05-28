@@ -9,7 +9,7 @@ vti_filesize:IR|5413
 vti_cachedtitle:SR|Model Tester
 vti_cachedbodystyle:SR|<body>
 vti_cachedlinkinfo:VX|A|../model_tester.php
-vti_cachedsvcrellinks:VX|FAUS|model_tester.php
+vti_cachedsvcrellinks:VX|NAUS|model_tester.php
 vti_cachedneedsrewrite:BR|false
 vti_cachedhasbots:BR|false
 vti_cachedhastheme:BR|false

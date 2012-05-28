@@ -10,11 +10,11 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>Compose Message - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico">
 <script type="text/javascript">
 	function counter(thisfield)
 	{
@@ -41,7 +41,7 @@
 		<div style="box-shadow:#666 0px 0px 25px;border-radius:5px;background-color:white;padding:10px; margin:14px">
 			
 			<div id="form" style="margin-top:10px">
-				<form action="http://www.barnsley-ltu.co.uk/controllers/message.php" method="post">
+				<form action="https://www.barnsley-ltu.co.uk/controllers/message.php" method="post">
 					<table>
 					<?php
 						if(!isset($_GET['thread_id']))

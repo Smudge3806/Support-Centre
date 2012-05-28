@@ -10,12 +10,12 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>Notifications - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/message_boxes.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/message_boxes.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 			?>
 				<div class="notice">
 					<p style="float:left"><?php echo $_GET['m']; ?></p>
-					<a href="http://www.barnsley-ltu.co.uk/notifications.php" title="Clear" id="clear">     </a>
+					<a href="https://www.barnsley-ltu.co.uk/notifications.php" title="Clear" id="clear">     </a>
 				</div>
 			<?php
 		}

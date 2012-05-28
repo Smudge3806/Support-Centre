@@ -43,11 +43,11 @@
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<title><?php echo TITLE; ?> - Support Centre</title>
-	<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-	<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-	<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-	<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-	<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico">
+	<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+	<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+	<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+	<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+	<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico">
 	<style type="text/css">
 		tr:nth-child(even) {background-color: #9CF;}
 	</style>
@@ -163,10 +163,10 @@
 				
 					<?php $x = 0; while($x != count($course->enrolments)){ $enrolment = $course->enrolments[$x];?>
 				<tr>
-					<td><a href="http://www.barnsley-ltu.co.uk/users/<?php echo $enrolment['user']->id; if($_SESSION['account'] == "admin"){ echo "/admin"; }else{ echo "/"; } ?>" title="See <?php echo $enrolment['user']->username;?>'s profile here"><?php echo $enrolment['user']->username; ?></a></td>
+					<td><a href="https://www.barnsley-ltu.co.uk/users/<?php echo $enrolment['user']->id; if($_SESSION['account'] == "admin"){ echo "/admin"; }else{ echo "/"; } ?>" title="See <?php echo $enrolment['user']->username;?>'s profile here"><?php echo $enrolment['user']->username; ?></a></td>
 					<td><?php echo $enrolment['role']; ?></td>
 					<?php if($_SESSION['account'] == "admin" && $enrolment['role'] != "Support Officer"){ ?>
-					<td><a href="http://www.barnsley-ltu.co.uk/controllers/moodle_enrol_delete.php?id=<?php echo $enrolment['user']->id; ?>&course=<?php echo $_GET['id']; ?>" title="Unenrol this User">Delete</a></td>
+					<td><a href="https://www.barnsley-ltu.co.uk/controllers/moodle_enrol_delete.php?id=<?php echo $enrolment['user']->id; ?>&course=<?php echo $_GET['id']; ?>" title="Unenrol this User">Delete</a></td>
 					<?php } ?>					
 				</tr>
 					<?php $x++; }?>

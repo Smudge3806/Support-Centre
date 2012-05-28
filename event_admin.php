@@ -18,14 +18,14 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>Training Event - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/event.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/notes.css">
-<link rel="icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/event.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/notes.css">
+<link rel="icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
 <?php include('scripts/import_fancybox.php'); ?>
 <?php
 	if(isset($_GET['fbm']))
@@ -99,25 +99,25 @@
 		var answer = confirm("Are you sure you want to delete this event?");
 		if(answer)
 		{
-			window.location = 'http://www.barnsley-ltu.co.uk/controllers/delete_event.php?id=<?php echo $_GET['id']; ?>';
+			window.location = 'https://www.barnsley-ltu.co.uk/controllers/delete_event.php?id=<?php echo $_GET['id']; ?>';
 		}
 	}
 	
 	function alterAttendance(value, user_id)
 	{
-		window.location = 'http://www.barnsley-ltu.co.uk/controllers/event_alter_attendance.php?eid=<?php echo $event->id; ?>&uid='+user_id+'&page=events/<?php echo $event->id; ?>&att='+value;
+		window.location = 'https://www.barnsley-ltu.co.uk/controllers/event_alter_attendance.php?eid=<?php echo $event->id; ?>&uid='+user_id+'&page=events/<?php echo $event->id; ?>&att='+value;
 	}
 	
 	function uninvite(event_id)
 	{
-		window.location = "http://www.barnsley-ltu.co.uk/controllers/ajax/event_uninvite.php?eid="+event_id;
+		window.location = "https://www.barnsley-ltu.co.uk/controllers/ajax/event_uninvite.php?eid="+event_id;
 	}
 		
 	// AJAX
 	
 	function confirm_event(value, id)
 	{
-		var result = sendValue(value, "http://www.barnsley-ltu.co.uk/controllers/ajax/event_confirm.php?eid="+value);
+		var result = sendValue(value, "https://www.barnsley-ltu.co.uk/controllers/ajax/event_confirm.php?eid="+value);
 		document.getElementById(id).innerHTML = result;
 		var t = setTimeout('$.fancybox.close()', 1000);
 	}
@@ -235,7 +235,7 @@
 						if($event->held_at == "00:00:00")
 						{
 							?>
-								<form name="time" method="get" action="http://www.barnsley-ltu.co.uk/controllers/event_change_time.php">
+								<form name="time" method="get" action="https://www.barnsley-ltu.co.uk/controllers/event_change_time.php">
 									<input type="number" max="17" min="8" name="hours" placeholder="Hours">
 									<input type="number" max="59" min="0" step="5" name="minutes" placeholder="Minutes">
 									<input type="hidden" name="seconds" value="00">
@@ -309,7 +309,7 @@
 		<div id="submit" style="clear:both;float:left">
 		<hr>
 		<p>Add a note about this event.</p>
-			<form action="http://www.barnsley-ltu.co.uk/controllers/event_add_note.php" method="get">
+			<form action="https://www.barnsley-ltu.co.uk/controllers/event_add_note.php" method="get">
 			<table>
 				<tr>	
 					<td><textarea cols="50" rows="10" name="mess" maxlength="500" placeholder="What do you want to add to this event?" onkeydown="counter(this)"></textarea></td>
@@ -329,7 +329,7 @@
 	<div style="display:none">
 		<div id="confirm_ui">
 			<p>Do you want to confirm this event?</p>
-			<button onclick="window.location = 'http://www.barnsley-ltu.co.uk/controllers/ajax/event_confirm.php?eid=<?php echo $_GET['id']; ?>&page=event_admin.php'">Confirm</button>
+			<button onclick="window.location = 'https://www.barnsley-ltu.co.uk/controllers/ajax/event_confirm.php?eid=<?php echo $_GET['id']; ?>&page=event_admin.php'">Confirm</button>
 		</div>
 		<div id="new_date">
 			<p>This feature is disabled at the moment.</p>
@@ -338,7 +338,7 @@
 			<p id="message"><?php if(isset($_GET['fbm'])){echo $_GET['fbm'];} ?></p>
 		</div>
 		<div id="contentUI">
-			<a href="http://www.barnsley-ltu.co.uk/windows/test_invite.php?event_id=<?php echo $_GET['id'];?>" id="frame"></a>
+			<a href="https://www.barnsley-ltu.co.uk/windows/test_invite.php?event_id=<?php echo $_GET['id'];?>" id="frame"></a>
 		</div>
 	</div>
 	

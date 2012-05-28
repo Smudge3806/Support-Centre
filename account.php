@@ -14,11 +14,11 @@
 <head>
 
 
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" >
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" >
 <script type="text/javascript">
 	var lastElem = "none"; // Default ["none"] - the active Element or Last element in use
 	var lastElemDefault = ""; // The Original Text Entry
@@ -85,7 +85,7 @@
 			<tr>
 				<td id="label">Forename:</td>
 				<td id="info"><!--<span id="forename" onclick="switchActiveElem(this)"><?php echo $user->first_name; ?></span>-->
-					<form name="forename" action="http://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
+					<form name="forename" action="https://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
 						<input type="hidden" name="page" value="account.php">
 						<input type="hidden" name="field" value="forename">
 						<input type="text" name="info" value="<?php echo $user->first_name; ?>">
@@ -95,7 +95,7 @@
 			</tr>
 			<tr>
 				<td id="label">Surname:</td>
-				<td id="info"><form name="surname" action="http://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
+				<td id="info"><form name="surname" action="https://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
 					<input type="hidden" name="page" value="account.php">
 					<input type="hidden" name="field" value="surname">
 					<input type="text" name="info" value="<?php echo $user->last_name; ?>">
@@ -108,7 +108,7 @@
 			</tr>
 			<tr>
 				<td id="label">Extension:</td>
-				<td id="info"><form name="telephone" method="post" action="http://www.barnsley-ltu.co.uk/controllers/change_telephone.php">
+				<td id="info"><form name="telephone" method="post" action="https://www.barnsley-ltu.co.uk/controllers/change_telephone.php">
 					<input type="hidden" name="page" value="account.php">
 					<input type="text" name="ext" value="<?php echo $user->telephone; ?>">
 					<input type="submit" value="Change">
@@ -119,7 +119,7 @@
 				<td id="label">Department:</td>
 				<!-- auto-select -> selected="selected" -->
 				<td id="info"><form name="department" action="controllers/change_department.php" method="post">
-				<input type="hidden" name="page" value="http://www.barnsley-ltu.co.uk/account.php">
+				<input type="hidden" name="page" value="https://www.barnsley-ltu.co.uk/account.php">
 				<?php include('views/department_select.php'); ?>
 				<input type="submit" value="Change">
 				</form></td>
@@ -130,7 +130,7 @@
 	</div>
 	<div id="fields" style="display:none">
 		<div id="field_forename">
-			<form name="forename" action="http://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
+			<form name="forename" action="https://www.barnsley-ltu.co.uk/controllers/change_name.php" method="post">
 				<input type="hidden" name="page" value="account.php">
 				<input type="hidden" name="field" value="forename">
 				<input type="text" name="info" value="<?php echo $user->first_name; ?>">

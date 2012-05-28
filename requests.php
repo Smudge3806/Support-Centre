@@ -5,12 +5,12 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>Recent Support Requests - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/admin_table.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/admin_table.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
 <style type="text/css">
 	.reports #summary
 	{
@@ -83,7 +83,7 @@
 									$support = new Support_Request($raw->rid);
 									?>
 									<tr>
-										<td id="type"><a href="http://www.barnsley-ltu.co.uk/support/<?php echo $support->rid; ?>"><?php echo $support->type; ?></a></td>
+										<td id="type"><a href="https://www.barnsley-ltu.co.uk/support/<?php echo $support->rid; ?>"><?php echo $support->type; ?></a></td>
 										<td id="datemade"><?php require_once('models/datetime.php'); $time = new TimeStamp($support->created_on); echo $time->str_short; ?></td>
 										<td id="status"><?php echo $support->status; ?></td>
 										<td id="summary"><?php $out = $support->summary; if(strlen($out) > 20){$out = substr($out, 0, 20);} echo $out ?></td>

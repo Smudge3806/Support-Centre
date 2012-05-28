@@ -7,12 +7,12 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>Invite Colleagues - Support Centre</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/controls.css">
-<link rel="SHORTCUT ICON" href="http://www.barnsley-ltu.co.uk/img/favicon.ico">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/controls.css">
+<link rel="SHORTCUT ICON" href="https://www.barnsley-ltu.co.uk/img/favicon.ico">
 <style type="text/css">
 	#content{
 	background-color:white;
@@ -94,7 +94,7 @@ h4 a:hover{
 		
 		}
 		
-		cont.open('GET', 'http://www.barnsley-ltu.co.uk/views/fancybox/events_register_list.php?id=<?php echo $_GET['event_id']; ?>', true);
+		cont.open('GET', 'https://www.barnsley-ltu.co.uk/views/fancybox/events_register_list.php?id=<?php echo $_GET['event_id']; ?>', true);
 		cont.send();
 	}
 	function invite()
@@ -204,7 +204,7 @@ h4 a:hover{
 </div>
 
 <div id="contentUI" style="display:none">
-	<a href="http://www.barnsley-ltu.co.uk/windows/test_invite.php?event_id=<?php echo $_GET['event_id'];?>" id="frame"></a>
+	<a href="https://www.barnsley-ltu.co.uk/windows/test_invite.php?event_id=<?php echo $_GET['event_id'];?>" id="frame"></a>
 </div>
 
 </body>

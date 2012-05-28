@@ -20,13 +20,13 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/notes.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/icons.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-cut">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/notes.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/icons.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-cut">
 <script type="text/javascript">
 	function counter(thisfield)
 	{
@@ -109,7 +109,7 @@
 							$user = new User($user->uid);
 							?>
 							<span class="UserTile">
-								<a href="http://www.barnsley-ltu.co.uk/<?php $link = new User_Link($user, "url"); echo $link->output; ?>" class="UserTileTitle"><?php echo $user->username; ?></a></a>
+								<a href="http://www.barnsley-ltu.co.uk/<?php $link = new User_Link($user, "url"); echo $link->output; ?>" class="UserTileTitle"><?php echo $user->username; ?></a>
 								<a href="mailto:<?php echo $user->email; ?>" class="UserTileEmail"><?php echo $user->email; ?></a>
 			
 							</span>
@@ -141,7 +141,7 @@
 						$moodle = new MoodleCourse($row->page_id);
 						?>
 						<span class="MoodleTile">
-							<a href="http://www.barnsley-ltu.co.uk/courses/<?php echo $moodle->id; ?>/view" class="MoodleTileTitle"><?php echo $moodle->moodle_title; ?></a>
+							<a href="https://www.barnsley-ltu.co.uk/courses/<?php echo $moodle->id; ?>/view" class="MoodleTileTitle"><?php echo $moodle->moodle_title; ?></a>
 							<a href="<?php echo $moodle->url; ?>" class="MoodleTileURL"><?php echo $moodle->url; ?></a>
 						</span>
 						<?php
@@ -187,7 +187,7 @@
 			?>
 			<hr style="clear:both">
 			<div>
-				<form method="post" action="http://www.barnsley-ltu.co.uk/controllers/department_message.php">
+				<form method="post" action="https://www.barnsley-ltu.co.uk/controllers/department_message.php">
 					<table>
 					
 						<tr>

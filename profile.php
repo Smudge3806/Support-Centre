@@ -61,9 +61,9 @@ $(function(){
 });
 </script>
 <title><?php echo $new_user->username; ?>'s Profile</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" >	
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" >	
 </head>
 
 <body>
@@ -73,7 +73,7 @@ $(function(){
 			?>
 				<div class="notice">
 					<p style="float:left"><?php echo $_GET['m']; ?></p>
-					<a href="http://www.barnsley-ltu.co.uk/user/<?php if(isset($_GET['id'])){ echo $_GET['id']; }?>" title="Clear" id="clear">     </a>
+					<a href="https://www.barnsley-ltu.co.uk/user/<?php if(isset($_GET['id'])){ echo $_GET['id']; }?>" title="Clear" id="clear">     </a>
 				</div>
 			<?php
 		}

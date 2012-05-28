@@ -22,21 +22,21 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.jpg" >
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.jpg" >
 <title>Submit a Support Request</title>
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script type="text/javascript">
 		!window.jQuery && document.write('<script src="scripts/fancybox/fancybox/jquery-1.4.3.min.js"><\/script>');
 	</script>
-	<script type="text/javascript" src="http://www.barnsley-ltu.co.uk/scripts/fancybox/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-	<script type="text/javascript" src="http://www.barnsley-ltu.co.uk/scripts/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-	<link rel="stylesheet" type="text/css" href="http://www.barnsley-ltu.co.uk/scripts/fancybox/fancybox/jquery.fancybox-1.3.4.css" media="screen" >
+	<script type="text/javascript" src="https://www.barnsley-ltu.co.uk/scripts/fancybox/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="https://www.barnsley-ltu.co.uk/scripts/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://www.barnsley-ltu.co.uk/scripts/fancybox/fancybox/jquery.fancybox-1.3.4.css" media="screen" >
 <script type="text/javascript">
 	$(document).ready(function(){
 		$("#various1").fancybox({
@@ -134,7 +134,7 @@
 				case "moodle":
 			?>
 			
-		<form id="moodle" name="moodle" method="post" action="http://www.barnsley-ltu.co.uk/controllers/submit_report.php">
+		<form id="moodle" name="moodle" method="post" action="https://www.barnsley-ltu.co.uk/controllers/submit_report.php">
 			<table>
 				<tr>
 					<td valign="top">Description:</td>
@@ -174,7 +174,7 @@
 				case "promethean":
 				?>
 				
-					<form name="promethean" method="post" action="http://www.barnsley-ltu.co.uk/controllers/submit_report.php">
+					<form name="promethean" method="post" action="https://www.barnsley-ltu.co.uk/controllers/submit_report.php">
 								<table>
 									<tr>
 										<td>Product:</td>
@@ -219,7 +219,7 @@
 					case "general":	
 				?>
 					
-						<form name="general" method="post" action="http://www.barnsley-ltu.co.uk/controllers/submit_report.php">
+						<form name="general" method="post" action="https://www.barnsley-ltu.co.uk/controllers/submit_report.php">
 							<table>
 								<tr>
 									<td>Nature of the Problem:</td>

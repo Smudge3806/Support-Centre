@@ -3,11 +3,11 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon16.ico" type="image/x-icon" >
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon16.ico" type="image/x-icon" >
 
 <title>Setup your account</title>
 
@@ -31,11 +31,11 @@
 	</div>
 	<div style="width:635px;float:left;background-color:white;box-shadow:#666 0px 0px 25px;border-radius:5px;margin:-25px 4px 25px 14px;padding:45px 10px 10px 10px">
 			<p>Normal "String" Password</p>
-			<form name="norm" action="http://www.barnsley-ltu.co.uk/controllers/admin_change_password.php" method="post" style="width:300px;margin:auto">
+			<form name="norm" action="https://www.barnsley-ltu.co.uk/controllers/admin_change_password.php" method="post" style="width:300px;margin:auto">
 				<table>
 					<tr>
 						<td>
-							<input type="hidden" name="page" value="profile.php?m=Welcome to Support Centre! Take some time to look around your new profile page.">
+							<input type="hidden" name="page" value="profile.php">
 							<input type="password" name="password" placeholder="New Password">
 							<input type="submit" value="Create">
 						</td>
@@ -43,11 +43,11 @@
 				</table>
 			</form>
 			<p>Enter your date of birth. This will be your password.</p>
-			<form name="dob" action="http://www.barnsley-ltu.co.uk/controllers/change_password.php" method="post" style="width:600px;margin:auto">
+			<form name="dob" action="https://www.barnsley-ltu.co.uk/controllers/change_password.php" method="post" style="width:600px;margin:auto">
 				<table>
 					<tr>
 						<td>
-							<input type="hidden" name="page" value="profile.php?m=Welcome to Support Centre! Take some time to look around your new profile page.">
+							<input type="hidden" name="page" value="profile.php">
 							<input type="text" name="date[day]" placeholder="Day(dd)" required>
 							<select name="date[month]" style="width:159px">
 								<option value="01">January</option>
