@@ -1,4 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<?php
+	include('controllers/check_proto.php');
+	error_reporting(0);
+?>
+<!DOCTYPE html>
 <?php
 	//set-up
 	include('controllers/dbconnection.php');
@@ -51,11 +55,11 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon16.ico" type="image/x-icon" >
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon16.ico" type="image/x-icon" >
 <title>Barnsley College LTU Support Centre</title>
 <style type="text/css">
 	#loginUI{
@@ -102,9 +106,9 @@
 
 	<?php include('views/page_header.php'); ?>	
 	<div class="metro" id="navigation" style="float:right;clear:both">
-		<a href="http://www.barnsley-ltu.co.uk/register.php" id="link" title="Register to access the Support Centre">Register</a>
-		<a href="http://www.barnsley-ltu.co.uk/about.php" id="link" title="About LTU Support Centre">About</a>
-		<a href="http://www.barnsley-ltu.co.uk/contact.php" id="link" title="Contact Us">Contact Us</a>
+		<a href="https://www.barnsley-ltu.co.uk/register.php" id="link" title="Register to access the Support Centre">Register</a>
+		<a href="https://www.barnsley-ltu.co.uk/about.php" id="link" title="About LTU Support Centre">About</a>
+		<a href="https://www.barnsley-ltu.co.uk/contact.php" id="link" title="Contact Us">Contact Us</a>
 	</div>
 	
 	
@@ -117,7 +121,7 @@
 			</div>
 	
 			<div id="loginUI">
-				<form name="login" method="post" action="http://www.barnsley-ltu.co.uk/authent.php" style="padding-top:60px">
+				<form name="login" method="post" action="https://www.barnsley-ltu.co.uk/authent.php" style="padding-top:60px">
 					<table>
 						<?php if(isset($e)){ ?><tr><td colspan="2" style="color:red;text-align:center"><?php echo $e; ?></td></tr><?php } ?>
 						<tr>

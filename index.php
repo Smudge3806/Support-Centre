@@ -1,4 +1,5 @@
 <?php
+	include('controllers/check_proto.php');
 	include('controllers/is_logged_in.php');
 	$user = $_SESSION['username'];
 	$uid = $_SESSION['uid'];

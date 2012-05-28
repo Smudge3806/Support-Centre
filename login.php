@@ -1,4 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<?php
+include('controllers/check_proto.php');
+?>
+<!DOCTYPE html>
 <?php
 	//set-up
 	include('controllers/dbconnection.php');
