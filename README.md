@@ -1,6 +1,7 @@
 # Support Centre #
 
 @author Chris Smith chris@cj-dev.co.uk
+
 @version v2.3 - PRERELEASE (28/05/2012)
 
 ### Purpose ###
