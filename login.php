@@ -54,11 +54,11 @@ include('controllers/check_proto.php');
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/main.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/metro.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/about.css">
-<link rel="stylesheet" href="http://www.barnsley-ltu.co.uk/styles/pie.css">
-<link rel="shortcut icon" href="http://www.barnsley-ltu.co.uk/img/favicon16.ico" type="image/x-icon" >
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/main.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/metro.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/about.css">
+<link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
+<link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon16.ico" type="image/x-icon" >
 <title>Barnsley College LTU Support Centre</title>
 <style type="text/css">
 	#loginUI{
@@ -105,9 +105,9 @@ include('controllers/check_proto.php');
 
 	<?php include('views/page_header.php'); ?>	
 	<div class="metro" id="navigation" style="float:right;clear:both">
-		<a href="http://www.barnsley-ltu.co.uk/register.php" id="link" title="Register to access the Support Centre">Register</a>
-		<a href="http://www.barnsley-ltu.co.uk/about.php" id="link" title="About LTU Support Centre">About</a>
-		<a href="http://www.barnsley-ltu.co.uk/contact.php" id="link" title="Contact Us">Contact Us</a>
+		<a href="https://www.barnsley-ltu.co.uk/register.php" id="link" title="Register to access the Support Centre">Register</a>
+		<a href="https://www.barnsley-ltu.co.uk/about.php" id="link" title="About LTU Support Centre">About</a>
+		<a href="https://www.barnsley-ltu.co.uk/contact.php" id="link" title="Contact Us">Contact Us</a>
 	</div>
 	
 	
@@ -129,7 +129,7 @@ include('controllers/check_proto.php');
 								<li>Get connected straight to your Support Officer</li>
 							</ul>
 							<p style="margin-bottom:0px">So what are you waiting for?<br>Click here to 
-							<a href="http://www.barnsley-ltu.co.uk/register.php" title="Click to sign your soul to the devil">register.</a></p>
+							<a href="https://www.barnsley-ltu.co.uk/register.php" title="Click to sign your soul to the devil">register.</a></p>
 						</div>
 					</div>
 				</td>
@@ -142,7 +142,7 @@ include('controllers/check_proto.php');
 						</div>
 				
 						<div id="loginUI">
-							<form name="login" method="post" action="http://www.barnsley-ltu.co.uk/authent.php" style="padding-top:60px">
+							<form name="login" method="post" action="https://www.barnsley-ltu.co.uk/authent.php" style="padding-top:60px">
 								<table>
 									<?php if(isset($e)){ ?><tr><td colspan="2" style="color:red;text-align:center"><?php echo $e; ?></td></tr><?php } ?>
 									<tr>
