@@ -1,3 +1,7 @@
+<?php
+	session_start();
+	$_SESSION['f'] = 1;
+?>
 <!DOCTYPE html>
 <html>
 
@@ -12,10 +16,6 @@
 <title>Setup your account</title>
 
 </head>
-<?php
-	session_start();
-	$_SESSION['f'] = 1;
-?>
 <body>
 	<?php include('views/page_header.php'); ?>
 	<div class="metro" id="navigation">
@@ -35,7 +35,7 @@
 				<table>
 					<tr>
 						<td>
-							<input type="hidden" name="page" value="profile.php?m=Welcome to Support Centre! Take some time to look around your new profile page.">
+							<input type="hidden" name="page" value="profile.php">
 							<input type="text" name="date[day]" placeholder="Day(dd)" required>
 							<select name="date[month]" style="width:159px">
 								<option value="01">January</option>

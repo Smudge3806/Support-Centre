@@ -32,8 +32,8 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
-<script src="http://bxslider.com/sites/default/files/jquery.bxSlider.min.js" type="text/javascript"></script>
+<script src="https://www.barnsley-ltu.co.uk/scripts/jquery-1.7.2.js" type="text/javascript"></script>
+<script src="https://www.barnsley-ltu.co.uk/scripts/bxSlider/jquery.bxSlider.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 // Support Request Slider
  $(function(){

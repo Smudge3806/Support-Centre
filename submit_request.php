@@ -30,7 +30,7 @@
 <link rel="stylesheet" href="https://www.barnsley-ltu.co.uk/styles/pie.css">
 <link rel="icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="https://www.barnsley-ltu.co.uk/img/favicon.ico" type="image/x-icon">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script type="text/javascript">
 		!window.jQuery && document.write('<script src="scripts/fancybox/fancybox/jquery-1.4.3.min.js"><\/script>');
 	</script>

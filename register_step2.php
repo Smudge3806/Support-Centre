@@ -1,6 +1,8 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
-
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>Setup your account</title>
@@ -33,7 +35,6 @@ input[type=submit]
 
 </head>
 <?php
-	session_start();
 	$code = $_GET['code'];
 	include('controllers/dbconnection.php');
 	$result = $mysqli->query("SELECT * FROM registration_codes");
@@ -43,7 +44,6 @@ input[type=submit]
 		$vericode = $user->code;
 		if($vericode == $code)
 		{
-			echo "found code";
 			$rid = $user->rid;
 			$mysqli->query("DELETE FROM registration_codes WHERE rid = ".$rid);
 			break;

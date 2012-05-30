@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script type="text/javascript">
 		!window.jQuery && document.write('<script src="https://www.barnsley-ltu.co.uk/scripts/fancybox/fancybox/jquery-1.4.3.min.js"><\/script>');
 	</script>

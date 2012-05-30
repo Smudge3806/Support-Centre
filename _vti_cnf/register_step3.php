@@ -1,15 +1,15 @@
 vti_encoding:SR|utf8-nl
-vti_timelastmodified:TR|28 May 2012 11:30:43 -0000
+vti_timelastmodified:TR|30 May 2012 07:48:20 -0000
 vti_title:SR|Setup your account
 vti_author:SR|STUDENT\\c.smith
 vti_modifiedby:SR|STUDENT\\c.smith
-vti_nexttolasttimemodified:TW|16 Apr 2012 14:10:56 -0000
+vti_nexttolasttimemodified:TW|30 May 2012 07:46:14 -0000
 vti_timecreated:TR|06 Jan 2012 11:20:49 -0000
 vti_extenderversion:SR|12.0.0.0
 vti_syncwith_localhost\\p\:\\dev\\metro/p\:/dev/metro:TR|08 Dec 2011 12:57:48 -0000
 vti_backlinkinfo:VX|
-vti_cacheddtm:TX|28 May 2012 11:30:43 -0000
-vti_filesize:IR|2495
+vti_cacheddtm:TX|30 May 2012 07:48:20 -0000
+vti_filesize:IR|2413
 vti_cachedtitle:SR|Setup your account
 vti_cachedbodystyle:SR|<body>
 vti_cachedlinkinfo:VX|Q|https://www.barnsley-ltu.co.uk/styles/main.css Q|https://www.barnsley-ltu.co.uk/styles/metro.css Q|https://www.barnsley-ltu.co.uk/styles/about.css Q|https://www.barnsley-ltu.co.uk/styles/pie.css H|https://www.barnsley-ltu.co.uk/img/favicon16.ico I|views/page_header.php I|views/metro_navigation.php A|https://www.barnsley-ltu.co.uk/controllers/change_password.php I|views/page_footer.php

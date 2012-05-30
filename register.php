@@ -65,6 +65,8 @@
 						<td><input type="submit" value="Register"></td>
 					</tr>
 				</table>
+			
+				
 			</fieldset>
 		</form>
 		<?php
