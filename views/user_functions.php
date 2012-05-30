@@ -83,16 +83,16 @@
 			</div>
 			<div id="department">
 				<?php include("controllers/department_list.php"); ?>
-				<form name="department" method="post" action="http://www.barnsley-ltu.co.uk/controllers/change_department.php">
-					<input type="hidden" name="page" value="http://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
+				<form name="department" method="post" action="https://www.barnsley-ltu.co.uk/controllers/change_department.php">
+					<input type="hidden" name="page" value="https://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
 					<input type="hidden" name="user" value="<?php echo $user->id; ?>">
 					<?php include('views/department_select.php'); ?>
 					<input type="submit" value="Change">
 				</form>
 			</div>
 			<div id="account">
-				<form name="account" method="post" action="user_profile.php?id=<?php echo $user->id; ?>&m=This Feature is not available Yet">
-					<input type="hidden" name="page" value="http://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
+				<form name="account" method="post" action="https://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
+					<input type="hidden" name="page" value="https://www.barnsley-ltu.co.uk/user/<?php echo $user->id; ?>/admin">
 					<input type="hidden" name="uid" value="<?php echo $user->id; ?>">
 					<input type="hidden" name="type" value="Admin">
 					<input type="submit" value="Promote">
