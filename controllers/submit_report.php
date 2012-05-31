@@ -2,7 +2,7 @@
 	include('dbconnection.php');
 	session_start();
 	$cat = $_POST['cat'];
-	echo $cat;
+	//echo $cat;
 	if(isset($_POST['user']))
 	{
 		$uid = $_POST['user'];	
@@ -11,23 +11,23 @@
 	{
 		$uid = $_SESSION['uid'];
 	}
-	echo $uid;
+	//echo $uid;
 	switch($cat)
 	{
 		case "Moodle":
 						
 			
-				echo "<b>CONSOLE:</b> Record Saved<br/>";
+				//echo "<b>CONSOLE:</b> Record Saved<br/>";
 				$rid = $mysqli->insert_id;
 				$result = $mysqli->query('SELECT * FROM users WHERE uid ='.$uid);
 				$user = $result->fetch_object();
 				
 				$did = $user->department_id;
-				echo $did;
+			//	echo $did;
 				$result = $mysqli->query('SELECT l.* FROM locations AS l, departments AS d WHERE l.lid = d.location AND d.did = '.$did);
 				$location = $result->fetch_object();
 				$location = $location->location;
-				echo $location;
+			//	echo $location;
 				
 				$page_id = $_POST['course'];
 				$summary = $_POST['summary'];
@@ -72,17 +72,17 @@
 			}
 			break;
 		case "Promethean":
-			echo "<b>CONSOLE:</b> Record Saved<br/>";
+		//	echo "<b>CONSOLE:</b> Record Saved<br/>";
 				$rid = $mysqli->insert_id;
 				$result = $mysqli->query('SELECT * FROM users WHERE uid ='.$uid);
 				$user = $result->fetch_object();
 				
 				$did = $user->department_id;
-				echo $did;
+		//		echo $did;
 				$result = $mysqli->query('SELECT l.* FROM locations AS l, departments AS d WHERE l.lid = d.location AND d.did = '.$did);
 				$location = $result->fetch_object();
 				$location = $location->location;
-				echo $location;
+		//		echo $location;
 				
 				$summary = "Application: ".$_POST['applications']."<br>State: ".$_POST['software']."<br><br>".$_POST['description'];
 				
@@ -126,17 +126,17 @@
 		
 			break;
 		case "General":
-			echo "<b>CONSOLE:</b> Record Saved<br/>";
+		//	echo "<b>CONSOLE:</b> Record Saved<br/>";
 				$rid = $mysqli->insert_id;
 				$result = $mysqli->query('SELECT * FROM users WHERE uid ='.$uid);
 				$user = $result->fetch_object();
 				
 				$did = $user->department_id;
-				echo $did;
+		//		echo $did;
 				$result = $mysqli->query('SELECT l.* FROM locations AS l, departments AS d WHERE l.lid = d.location AND d.did = '.$did);
 				$location = $result->fetch_object();
 				$location = $location->location;
-				echo $location;
+		//		echo $location;
 				
 				$summary = "Nature of Problem: ".$_POST['nature']."<br><br>".$_POST['description'];
 				

@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	var_dump($_POST);
+	//var_dump($_POST);
 	$x = 0;
 	$collected = 0;
 	$array = array();
@@ -25,7 +25,7 @@
 		$x++;
 	}
 	
-	echo $stmt.$values;
+	//echo $stmt.$values;
 	
 	include('dbconnection.php');
 	$mysqli->query($stmt.$values);

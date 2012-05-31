@@ -1,4 +1,3 @@
-
 <?php
 	include('controllers/is_logged_in.php');
 	include('controllers/dbconnection.php');
