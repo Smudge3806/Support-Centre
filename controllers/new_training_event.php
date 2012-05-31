@@ -1,13 +1,13 @@
 <?php 
 	include('dbconnection.php');
-	var_dump($_POST);
+	//var_dump($_POST);
 	if(isset($_POST['user']))
 	{
-	echo "User ID = ".$_POST['user']."<br>";
+	//echo "User ID = ".$_POST['user']."<br>";
 	}
 	else
 	{
-		echo "Nope<br>";
+		//echo "Nope<br>";
 	}
 	
 	if($_POST['title'] == 0)
@@ -15,7 +15,7 @@
 		$mysqli->query('INSERT INTO training_sessions (title) VALUES ('.$_POST['new_session'].')');
 		if($mysqli->insert_id == 0)
 		{
-			var_dump($mysqli);//header('location: ../errors/database.php?Could Not Save New Training Session');
+			//var_dump($mysqli);//header('location: ../errors/database.php?Could Not Save New Training Session');
 		}
 		else
 		{
@@ -28,24 +28,24 @@
 	}
 	if(isset($sess_id))
 	{
-		echo "Session ID = ".$sess_id."<br>";
+		//echo "Session ID = ".$sess_id."<br>";
 	}
 	else
 	{
-		echo "Nope<br>";
+		//echo "Nope<br>";
 	}
 
-	echo $_POST['user'];
+	//echo $_POST['user'];
 	$user = explode(". ", $_POST['user']);
-	var_dump($user);
+	//var_dump($user);
 	$uid = $user[0];
-	var_dump($uid);
-	echo "<br><br>";
+	//var_dump($uid);
+	//echo "<br><br>";
 	$mysqli->query('INSERT INTO training_events (session_id, organiser_id, location, held_on) VALUES ('.$sess_id.', '.$uid.', "'.$_POST['location'].'", "'.$_POST['date'].'")');
 	if($mysqli->insert_id == 0)
 	{
 		//header('location: ../errors/database.php?Could Not Save New Training Event');
-		var_dump($mysqli);
+	//	var_dump($mysqli);
 	}
 	else
 	{

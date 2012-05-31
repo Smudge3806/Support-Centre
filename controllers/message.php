@@ -24,25 +24,25 @@
 	if(isset($_POST['thread']))
 	{
 		$thread = $_POST['thread'];
-		echo "old thread<br>";
+		//echo "old thread<br>";
 	}
 	else
 	{
-		echo "new thread ";
+		//echo "new thread ";
 		$mysqli->query('INSERT INTO threads (thread_topic) VALUES ("'.$_POST['topic'].'")');
 		$thread = $mysqli->insert_id;
-		echo "created<br>";
+		//echo "created<br>";
 	}
-		echo "thread: ";
+		//echo "thread: ";
 		if(isset($thread))
 		{
-			var_dump($thread);
+			//var_dump($thread);
 		}
 		else
 		{
-			echo "oops";
+			//echo "oops";
 		}
-		echo "<br>";
+		//echo "<br>";
 	if(isset($_POST['sender'], $_POST['recipient']))
 	{
 		$mysqli->query('INSERT INTO messages (thread_id, sender, recipient, message) VALUES ('.$thread.', '.$_POST['sender'].', '.$_POST['recipient'].', "'.$_POST['message'].'")');
@@ -56,7 +56,7 @@
 			*/
 			require_once('../models/user.php');
 			$user = new User($_POST['recipient']);
-			var_dump($user);
+			//var_dump($user);
 			$sender = new User($_POST['sender']);	
 			/*$to = $user->email;
 			$subject = "New Message on Barnsley SupportCentre";
