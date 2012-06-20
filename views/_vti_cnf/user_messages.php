@@ -4,7 +4,7 @@ vti_modifiedby:SR|STUDENT\\c.smith
 vti_timelastmodified:TR|31 May 2012 09:27:07 -0000
 vti_timecreated:TR|02 Feb 2012 11:32:19 -0000
 vti_extenderversion:SR|12.0.0.0
-vti_backlinkinfo:VX|user_profile_new.php user_profile.php
+vti_backlinkinfo:VX|user_profile_new.php Support-Centre/user_profile_new.php user_profile.php Support-Centre/user_profile.php
 vti_nexttolasttimemodified:TW|02 Feb 2012 12:03:02 -0000
 vti_cacheddtm:TX|31 May 2012 09:27:07 -0000
 vti_filesize:IR|1367

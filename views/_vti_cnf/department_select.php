@@ -6,7 +6,7 @@ vti_nexttolasttimemodified:TR|25 Nov 2011 15:35:32 -0000
 vti_timecreated:TR|06 Jan 2012 11:20:55 -0000
 vti_extenderversion:SR|12.0.0.0
 vti_syncwith_localhost\\p\:\\dev\\metro/p\:/dev/metro:TR|25 Nov 2011 15:35:32 -0000
-vti_backlinkinfo:VX|register_step2.php account.php
+vti_backlinkinfo:VX|register_step2.php account.php Support-Centre/register_step2.php Support-Centre/account.php
 vti_cacheddtm:TX|28 Mar 2012 08:50:23 -0000
 vti_filesize:IR|455
 vti_cachedneedsrewrite:BR|false
